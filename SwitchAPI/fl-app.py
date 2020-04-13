@@ -1,10 +1,10 @@
-#secondrevision
+# secondrevision
 from flask import request
 from flask_api import FlaskAPI
 import sys
 import os
 import importlib
-
+import json
 import threading
 import csv
 
@@ -24,26 +24,47 @@ def api_root():
     }
 
 
-@app.route('/files/', methods=["GET", "POST"])
+@app.route('/files', methods=["GET", "POST"])
 def files():
     if request.method == "POST":
-        adddata = request.args.get('add')
-        rmdata = request.args.get('remove')
-        filename = request.args.get('filename')
-        if adddata is True:
-            command = "curl -LJO " + filename
-            os.system("cd scripts")
+        print("posting")
+        jsondata = request.data
+        print(jsondata)
+        parseddata = jsondata
+        adddata = parseddata['add']
+        print("adddata is " + adddata)
+        rmdata = parseddata['remove']
+        print("rmdata is " + rmdata)
+        filename = parseddata["filename"]
+        print(repr(filename))
+        if "True" in adddata:
+            print("adding")
+            command = "cd scripts & curl -LJO " + filename
+            #os.system("cd scripts")
+            print(command)
             os.system(command)
-        if rmdata is True:
-            os.system("cd scripts")
-            command = "sudo rm" + filename
+            oldname = "SwitchAPI/scripts/" + filename[86:]
+            goodfilename = filename[86:]
+            nename = "C:/Users/ATAM PC 004/Documents/switchapi/SwitchAPI/scripts/testdownload.py_token=AM5MCMUP6F2625MMZ6T475C6TYTCY/" + goodfilename[:-36]
+            os.rename(oldname, nename)
+        else:
+            print("no add")
+        if "True" in rmdata:
+            print("removing")
+            # os.system("cd scripts")
+            filename = filename[86:]  # 51
+            command = "rmdir " + filename
+            print(command)
             os.system(command)
+        else:
+            print("noremove")
 
-        #git.Git("/scripts").clone(filename)
-
+        # git.Git("/scripts").clone(filename)
+        print("asdfasdf")
         return {'download': "complete"}
 
     if request.method == "GET":
+        print("getting")
         files = os.listdir('./scripts')
         returnlist = {}
         for i in files:
@@ -55,11 +76,15 @@ def files():
         return returnlist
 
 
-@app.route('/start/<filename>', methods=["GET", "POST"])
-def start(filename):
+@app.route('/start', methods=["GET", "POST"])
+def start():
     global running
     global thread
+
     if request.method == "POST":
+        jsondata = request.data
+        print(jsondata)
+        filename = jsondata['filename']
         filetorun = importlib.import_module(filename)
         thread = threading.Thread(target=filetorun)
         thread.start()
