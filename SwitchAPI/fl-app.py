@@ -1,10 +1,10 @@
-
+#secondrevision
 from flask import request
 from flask_api import FlaskAPI
 import sys
 import os
 import importlib
-import git
+
 import threading
 import csv
 
@@ -24,10 +24,22 @@ def api_root():
     }
 
 
-@app.route('/files/<filename>', methods=["GET", "POST"])
-def files(filename):
+@app.route('/files/', methods=["GET", "POST"])
+def files():
     if request.method == "POST":
-        git.Git("/scripts").clone(filename)
+        adddata = request.args.get('add')
+        rmdata = request.args.get('remove')
+        filename = request.args.get('filename')
+        if adddata is True:
+            command = "curl -LJO " + filename
+            os.system("cd scripts")
+            os.system(command)
+        if rmdata is True:
+            os.system("cd scripts")
+            command = "sudo rm" + filename
+            os.system(command)
+
+        #git.Git("/scripts").clone(filename)
 
         return {'download': "complete"}
 
