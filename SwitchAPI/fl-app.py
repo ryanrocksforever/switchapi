@@ -7,6 +7,7 @@ import importlib
 import json
 import threading
 import csv
+import re
 import subprocess
 app = FlaskAPI(__name__)
 
@@ -43,17 +44,32 @@ def files():
             #os.system("cd scripts")
             print(command)
             os.system(command)
-            oldname = "SwitchAPI/scripts/" + filename[86:]
-            goodfilename = filename[86:]
-            nename = "C:/Users/ATAM PC 004/Documents/switchapi/SwitchAPI/scripts/testdownload.py_token=AM5MCMUP6F2625MMZ6T475C6TYTCY/" + goodfilename[:-36]
-            os.rename(oldname, nename)
+            filename = re.split('API/', filename)
+            algoodfile = filename[1]
+            goodfile = re.split('_token', algoodfile)
+            goodfile = goodfile[0]
+            print(filename[1])
+            print(goodfile)
+            os.rename(algoodfile, goodfile)
         else:
             print("no add")
         if "True" in rmdata:
             print("removing")
             # os.system("cd scripts")
-            filename = filename[86:]  # 51
-            command = "rmdir " + filename
+            if filename[0] is "h":
+                filename = re.split('API/', filename)
+                algoodfile = filename[1]
+                goodfile = re.split('_token', algoodfile)
+                goodfile = goodfile[0]
+                print(filename[1])
+                print(goodfile)
+            else:
+
+                goodfile = re.split('_token', filename)
+                goodfile = goodfile[0]
+                print(filename)
+                print(goodfile)
+            command = "cd scripts & rm " + goodfile
             print(command)
             os.system(command)
         else:
