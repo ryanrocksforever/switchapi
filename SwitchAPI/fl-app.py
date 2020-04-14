@@ -7,12 +7,12 @@ import importlib
 import json
 import threading
 import csv
-
+import subprocess
 app = FlaskAPI(__name__)
 
 global running
 running = False
-global thread
+
 
 sys.path.insert(1, './scripts')
 
@@ -79,31 +79,34 @@ def files():
 @app.route('/start', methods=["GET", "POST"])
 def start():
     global running
-    global thread
+    global p
 
     if request.method == "POST":
         jsondata = request.data
         print(jsondata)
         filename = jsondata['filename']
-        filetorun = importlib.import_module(filename)
-        thread = threading.Thread(target=filetorun)
-        thread.start()
+        #subprocess.call("ls", cwd="scripts/")
+        p = subprocess.Popen(['python', filename], cwd="scripts/")
+
+        global running
         running = True
 
+
+
         return {'running': running}
 
     if request.method == "GET":
         return {'running': running}
 
 
-@app.route('/stop/<filename>', methods=["GET", "POST"])
+@app.route('/stop', methods=["GET", "POST"])
 def stop():
     global running
-    global thread
+
     if request.method == "POST":
         if running is True:
-            thread.join()
-        running = False
+            p.terminate()
+            running = False
 
         return {'running': running}
 
@@ -111,23 +114,53 @@ def stop():
         return {'running': running}
 
 
-@app.route('/account/<id>', methods=["GET", "POST"])
-def account(id):
+@app.route('/account', methods=["GET", "POST"])
+def account():
+    global userid
     if request.method == "POST":
-        with open('account.csv', 'w', newline='') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=' ',
-                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(id)
-
-        return {'success': id}
+        jsondata = request.data
+        openfile = open("accounts.txt", "w")
+        openfile.write(repr(jsondata))
+        print(repr(jsondata))
+        openfile.close()
+        userid = jsondata["id"]
+        return {'success': jsondata["id"]}
 
     if request.method == "GET":
-        with open('account.csv', 'r', newline='') as csvfile:
-            spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-            for row in spamreader:
-                userid = row
-        return {'id': row}
 
+        openfile = open("accounts.txt", "r")
+        jsonid = openfile.read()
+        print(jsonid)
+        jsonid = jsonid.replace("'", '"')
+
+        print(jsonid)
+        jsonid = json.loads(jsonid)
+        print(jsonid)
+        openfile.close()
+        if "id" in jsonid.keys():
+            userid = jsonid["id"]
+        else:
+            print("Not present")
+            userid = None
+        if userid is not None:
+            return {'id': userid}
+        else:
+            return {'id': "none"}
+
+@app.route('/device', methods=["GET"])
+def device():
+    if request.method == "GET":
+        openfile = open("device.txt", "r")
+        jsonid = openfile.read()
+        print(jsonid)
+        jsonid = jsonid.replace("'", '"')
+
+        print(jsonid)
+        jsonid = json.loads(jsonid)
+        print(jsonid)
+        deviceid = jsonid["deviceid"]
+        openfile.close()
+        return {'device id': deviceid}
 
 if __name__ == "__main__":
     app.run()
