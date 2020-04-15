@@ -186,6 +186,6 @@ def device():
 
 if __name__ == "__main__":
     context = ('server.crt', 'server.key')
-    app.run(ssl_context=context, threaded=False, debug=False)
+    app.run(host='0.0.0.0', port=80, ssl_context=context, threaded=False, debug=False)
 
 # wifi setup need to install luink is https://github.com/balena-io/wifi-connect/issues/303 run commands there too
