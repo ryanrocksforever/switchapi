@@ -10,16 +10,16 @@ import csv
 import re
 import subprocess
 from flask_cors import CORS
-#from OpenSSL import SSL
-#context = SSL.Context(SSL.SSLv23_METHOD)
-#context.use_privatekey_file('server.key')
-#context.use_certificate_file('rootCA.pem')
+
+# from OpenSSL import SSL
+# context = SSL.Context(SSL.SSLv23_METHOD)
+# context.use_privatekey_file('server.key')
+# context.use_certificate_file('rootCA.pem')
 
 app = FlaskAPI(__name__)
 CORS(app)
 global running
 running = False
-
 
 sys.path.insert(1, './scripts')
 
@@ -47,7 +47,7 @@ def files():
         if "True" in adddata:
             print("adding")
             command = "cd scripts & curl -LJO " + filename
-            #os.system("cd scripts")
+            # os.system("cd scripts")
             print(command)
             os.system(command)
             filename = re.split('API/', filename)
@@ -107,13 +107,11 @@ def start():
         jsondata = request.data
         print(jsondata)
         filename = jsondata['filename']
-        #subprocess.call("ls", cwd="scripts/")
+        # subprocess.call("ls", cwd="scripts/")
         p = subprocess.Popen(['python', filename], cwd="scripts/")
 
         global running
         running = True
-
-
 
         return {'running': running}
 
@@ -169,6 +167,7 @@ def account():
         else:
             return {'id': "none"}
 
+
 @app.route('/device', methods=["GET"])
 def device():
     if request.method == "GET":
@@ -184,9 +183,9 @@ def device():
         openfile.close()
         return {'device id': deviceid}
 
+
 if __name__ == "__main__":
     context = ('server.crt', 'server.key')
     app.run(host='127.0.0.1', ssl_context=context, threaded=False, debug=True)
-
 
 # wifi setup need to install luink is https://github.com/balena-io/wifi-connect/issues/303 run commands there too
