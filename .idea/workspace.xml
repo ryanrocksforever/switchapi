@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="" />
+    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +34,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SwitchAPI/rootCA.key" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/SwitchAPI/rootCA.key" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Apps\Github\switchapi\SwitchAPI" />
       <recent name="D:\Apps\Github\switchapi" />
     </key>
   </component>
@@ -133,26 +138,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586821748478" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1586821740297">
+    <state x="1021" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586967469024">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586821740297" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1586925409884">
+    <state x="1021" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1586967469024" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1586978717130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586925409884" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1586925409884">
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1586978717130" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1586978655140">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586925409884" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1586925409884">
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586978655140" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1586979172470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586925409884" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1586925409884">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1586979172470" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1586979172470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586925409884" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1586979172470" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1586979172470">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1586979172470" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1586979172470">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1586979172470" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1586821665364">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

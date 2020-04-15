@@ -11,9 +11,9 @@ import re
 import subprocess
 from flask_cors import CORS
 from OpenSSL import SSL
-context = SSL.Context(SSL.PROTOCOL_TLSv1_2)
-context.use_privatekey_file('server.key')
-context.use_certificate_file('server.crt')
+#context = SSL.Context(SSL.SSLv23_METHOD)
+#context.use_privatekey_file('server.key')
+#context.use_certificate_file('rootCA.pem')
 
 app = FlaskAPI(__name__)
 CORS(app)
@@ -185,6 +185,8 @@ def device():
         return {'device id': deviceid}
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', debug=True, ssl_context=context)
+    context = ('server.crt', 'server.key')
+    app.run(host='127.0.0.1', port=80, ssl_context=context, threaded=True, debug=False)
+
 
 # wifi setup need to install luink is https://github.com/balena-io/wifi-connect/issues/303 run commands there too
