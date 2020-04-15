@@ -9,8 +9,10 @@ import threading
 import csv
 import re
 import subprocess
-app = FlaskAPI(__name__)
+from flask_cors import CORS
 
+app = FlaskAPI(__name__)
+CORS(app)
 global running
 running = False
 
