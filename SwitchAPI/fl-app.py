@@ -181,6 +181,6 @@ def device():
         return {'device id': deviceid}
 
 if __name__ == "__main__":
-    app.run()
+    app.run(ssl_context='adhoc')
 
 # wifi setup need to install luink is https://github.com/balena-io/wifi-connect/issues/303 run commands there too

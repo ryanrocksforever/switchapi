@@ -5,8 +5,19 @@
   <title>Studio Ghibli</title>
 </head>
 <body>
-  <h1>Studio Ghibli Characters</h1>
+
   <div id="main"></div>
-  <script src="index.js"></script>
+  <script>
+  const fetchPromise = fetch("http://switch-hub.local/account");
+  // Target main element
+  const main = document.getElementById("main");
+  fetchPromise.then(response => {
+    return response.json();
+  }).then(people => {
+    const names = people.id;
+    // Append names to main element
+    main.innerHTML = names;
+  });
+  </script>
 </body>
 </html>

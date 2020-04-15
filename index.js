@@ -4,7 +4,7 @@ const main = document.getElementById("main");
 fetchPromise.then(response => {
   return response.json();
 }).then(people => {
-  const names = people.map(person => person.name).join("\n");
+  const names = people.id;
   // Append names to main element
   main.innerHTML = names;
 });
