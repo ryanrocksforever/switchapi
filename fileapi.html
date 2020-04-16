@@ -14,11 +14,12 @@
   fetchPromise.then(response => {
     return response.json();
   }).then(people => {
+    var htm = "<p> poop </p>"
     for(var i = 0; i < people.length; i++) {
     htm +='<div class="notes">' + '<h5>'+people.i+'</h5>' + '</div>';
-    main.innerHTML = htm;
+    console.log(htm);
     }
-
+    main.innerHTML = htm;
   });
   </script>
 </body>
