@@ -98,8 +98,8 @@ def files():
 
             filenoext = i[:-3]
             #i = "id"
-            #filenoid = filenoext[1:]
-            returnlist.update({num: filenoext})
+            filenoid = filenoext[1:]
+            returnlist.update({num: filenoid})
 
 
         return returnlist
@@ -114,6 +114,7 @@ def start():
         jsondata = request.data
         print(jsondata)
         filename = jsondata['filename']
+        filename = "id"+filename+".py"
         # subprocess.call("ls", cwd="scripts/")
         p = subprocess.Popen(['python', filename], cwd="scripts/")
 
