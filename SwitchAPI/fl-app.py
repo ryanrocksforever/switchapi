@@ -93,7 +93,8 @@ def files():
             num = i[0]
             # noinspection PyUnreachableCode
             filenoext = i[:-3]
-            returnlist.update({num: filenoext})
+            #filenoid = filenoext[1:]
+            returnlist.update({"filename": filenoext})
 
         return returnlist
 
@@ -181,7 +182,7 @@ def device():
         print(jsonid)
         deviceid = jsonid["deviceid"]
         openfile.close()
-        return {'device id': deviceid}
+        return {'device_id': deviceid}
 
 
 if __name__ == "__main__":
@@ -191,4 +192,4 @@ if __name__ == "__main__":
 # https://github.com/jasbur/RaspiWiFi
 # that is link to wifi setup thing i use
 
-# sudo -E flask run --host=0.0.0.0 --port=80 --cert=adhoc
+# sudo -E flask run --host=switch-hub.local --port=80 --cert=adhoc

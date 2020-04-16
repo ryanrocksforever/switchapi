@@ -97,13 +97,13 @@
                 .then((data) => {
                     let result = `<h2 class="w3-center w3-allerta w3-xxlarge"> Random User Info From Jsonplaceholder API</h2>`;
 
-                    const {id, name, email, address:{city,street}} = user
-                    result +=
-                        `<div class="w3-panel w3-leftbar w3-border w3-round-small w3-border-blue w3-margin">
-                            <h5> User ID: ${id} </h5>
-
-                         </div>`;
-                    document.getElementById('result').innerHTML = result;
+                    $.each(data, function(i, resp){
+                        htm +='<div class="notes">' +
+                            '<h4>Tekst zaglavlje</h4>' +
+                            '<h5>'+resp.datum+'</h5>' +
+                            '<p>'+resp.komentar+'</p>' +
+                                '</div>';
+                    });
 
                 })
                 .catch(function (err) {

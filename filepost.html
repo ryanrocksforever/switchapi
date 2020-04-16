@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form  id="postData">
+        <div>
+            <input type="text" name="" id="tittle">
+        </div>
+        <div>
+            <textarea name="" id="body" cols="20" rows="5"></textarea>
+        </div>
+        <input type="submit" value="SEND POST">
+    </form>
+<script>
+ document.getElementById('postData').addEventListener('submit', postData);
+
+ function postData(event){
+            event.preventDefault();
+
+            let tittle = document.getElementById('tittle').value;
+            let body = document.getElementById('body').value;
+
+            fetch('https://switch-hub.local:80/files', {
+                method: 'POST',
+                headers : new Headers(),
+                body:JSON.stringify({tittle:tittle, body:body})
+            }).then((res) => res.json())
+            .then((data) =>  console.log(data))
+            .catch((err)=>console.log(err))
+        }
+</script>
+</body>
+</html>

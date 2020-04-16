@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Studio Ghibli</title>
+</head>
+<body>
+  <p>poop</p>
+  <div id="main"></div>
+  <script>
+  const fetchPromise = fetch("https://switch-hub.local:80/files");
+  // Target main element
+  const main = document.getElementById("main");
+  fetchPromise.then(response => {
+    return response.json();
+  }).then(people => {
+    for(var i = 0; i < people.length; i++) {
+    htm +='<div class="notes">' + '<h5>'+people.filename+'</h5>' + '</div>';
+    main.innerHTML = htm;
+    }
+
+  });
+  </script>
+</body>
+</html>
