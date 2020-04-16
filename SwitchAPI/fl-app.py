@@ -30,6 +30,9 @@ def api_root():
         "mom found the poop sock": "uh oh she found the pee drawer too"
     }
 
+def transform(multilevelDict):
+    return {str(key)+"abc" : (transform(value) if isinstance(value, dict) else value) for key, value in multilevelDict.items()}
+
 
 @app.route('/files', methods=["GET", "POST"])
 def files():
@@ -90,11 +93,14 @@ def files():
         files = os.listdir('./scripts')
         returnlist = {}
         for i in files:
+
             num = i[0]
-            # noinspection PyUnreachableCode
+
             filenoext = i[:-3]
+            #i = "id"
             #filenoid = filenoext[1:]
-            returnlist.update({"filename": filenoext})
+            returnlist.update({num: filenoext})
+
 
         return returnlist
 
@@ -187,9 +193,10 @@ def device():
 
 if __name__ == "__main__":
     context = ('server.crt', 'server.key')
-    app.run(host='0.0.0.0', port=80, ssl_context=context, threaded=False, debug=False)
+    app.run(host='127.0.0.1', port=80, ssl_context=context, threaded=False, debug=False)
 
 # https://github.com/jasbur/RaspiWiFi
 # that is link to wifi setup thing i use
-
+# export FLASK_APP=fl-app.py
 # sudo -E flask run --host=switch-hub.local --port=80 --cert=adhoc
+# sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key

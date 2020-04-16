@@ -15,7 +15,7 @@
     return response.json();
   }).then(people => {
     for(var i = 0; i < people.length; i++) {
-    htm +='<div class="notes">' + '<h5>'+people.filename+'</h5>' + '</div>';
+    htm +='<div class="notes">' + '<h5>'+people.i+'</h5>' + '</div>';
     main.innerHTML = htm;
     }
 
