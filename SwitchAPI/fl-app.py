@@ -189,4 +189,7 @@ if __name__ == "__main__":
     app.run(host='127.0.0.1', port=80, ssl_context=context, threaded=True, debug=False)
 
 
-# wifi setup need to install luink is https://github.com/balena-io/wifi-connect/issues/303 run commands there too
+# https://github.com/jasbur/RaspiWiFi
+# that is link to wifi setup thing i use
+
+# sudo -E flask run --host=0.0.0.0 --port=80 --cert=adhoc
