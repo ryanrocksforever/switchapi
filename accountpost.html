@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AMAZ-TECH | Fetch API</title>
+    <link rel="stylesheet" href="style/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <style>
+        .w3-allerta {
+            font-family: "Allerta Stencil", Sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+                    <div class="well">
+                        <div id="generic-content-form">
+                            <form action="https://switch-hub.local:80/account" method="POST" >
+                                <fieldset>
+                                <div class="control-group">
+                                    <label for="id__content_type" class="control-label">Media type:</label>
+                                    <div class="controls">
+                                        <select id="id__content_type" name="_content_type">
+                                        <option value="application/json" selected="selected">application/json</option>
+
+                                        </select>
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="id__content" class="control-label">Content:</label>
+                                    <div class="controls">
+                                        <!--<textarea name="_content" cols="40" rows="10">{"id": "posasd"}</textarea> -->
+                                        <input type="text" name="_content" readonly class="form-control-plaintext" id="_content" value="{'id': 'aasdsdfasdfs'}">
+
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+
+                                    <button class="btn btn-primary" title="Make a POST request on the resource">POST</button>
+
+
+
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+</body>
+
+</html>

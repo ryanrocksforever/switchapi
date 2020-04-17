@@ -6,16 +6,19 @@
 </head>
 <body>
 
-  <div id="main"></div>
+  <div id="main1"></div>
   <script>
   const fetchPromise = fetch("https://switch-hub.local:80/account");
   // Target main element
-  const main = document.getElementById("main");
+  const main = document.getElementById("main1");
   fetchPromise.then(response => {
     return response.json();
   }).then(people => {
     const names = people.id;
     // Append names to main element
+    if(names == "0000"){
+    names = "Not Registered"
+    }
     main.innerHTML = names;
   });
   </script>

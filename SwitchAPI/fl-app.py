@@ -39,6 +39,7 @@ def files():
     if request.method == "POST":
         print("posting")
         jsondata = request.data
+        jsondata = jsondata.replace("'", '"')
         print(jsondata)
         parseddata = jsondata
         adddata = parseddata['add']
@@ -112,6 +113,7 @@ def start():
 
     if request.method == "POST":
         jsondata = request.data
+        jsondata = jsondata.replace("'", '"')
         print(jsondata)
         filename = jsondata['filename']
         filename = "id"+filename+".py"
@@ -147,6 +149,7 @@ def account():
     global userid
     if request.method == "POST":
         jsondata = request.data
+        jsondata = jsondata.replace("'", '"')
         openfile = open("accounts.txt", "w")
         openfile.write(repr(jsondata))
         print(repr(jsondata))
