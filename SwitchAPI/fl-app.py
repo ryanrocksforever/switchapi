@@ -38,7 +38,7 @@ def transform(multilevelDict):
 def files():
     if request.method == "POST":
         print("posting")
-        jsondata = request.data
+        jsondata = request.data.replace("'", '"')
         jsondata = jsondata.replace("'", '"')
         print(jsondata)
         parseddata = jsondata
@@ -148,7 +148,8 @@ def stop():
 def account():
     global userid
     if request.method == "POST":
-        jsondata = request.data
+
+        jsondata = request.data.replace("'", '"')
         jsondata = jsondata.replace("'", '"')
         openfile = open("accounts.txt", "w")
         openfile.write(repr(jsondata))
