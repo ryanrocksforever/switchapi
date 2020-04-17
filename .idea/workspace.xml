@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asdfasdf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accountpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testphp.php" beforeDir="false" afterPath="$PROJECT_DIR$/testphp.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ATAM PC 004\Documents\switchapi" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.fl-app">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -135,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587160180234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1587161076376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587161076376</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dfasdfasdf">
+      <created>1587161230337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587161230337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -145,17 +167,19 @@
     <MESSAGE value="add stuff" />
     <MESSAGE value="add fileapi.html" />
     <MESSAGE value="add redundency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redundency" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="dfasdfasdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfasdfasdf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587065006687">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587065006687" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1587161075866">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1587161229831">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1587161075866" />
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1587161229831" />
     <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587067181268" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1587065791645">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -177,15 +201,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="6" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587153882700" />
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587161079810">
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587161234896">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587161079810" />
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587161234896" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587067186062" />
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587160590557">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1587160590557" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587065882866" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SwitchAPI/fl-app.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
