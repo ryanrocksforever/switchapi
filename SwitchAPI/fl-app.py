@@ -38,7 +38,7 @@ def transform(multilevelDict):
 def files():
     if request.method == "POST":
         print("posting")
-        jsondata = request.data.replace("'", '"')
+        jsondata = request.data
         jsondata = jsondata.replace("'", '"')
         print(jsondata)
         parseddata = jsondata
@@ -149,7 +149,7 @@ def account():
     global userid
     if request.method == "POST":
 
-        jsondata = request.data.replace("'", '"')
+        jsondata = request.data
         jsondata = jsondata.replace("'", '"')
         openfile = open("accounts.txt", "w")
         openfile.write(repr(jsondata))
@@ -205,3 +205,5 @@ if __name__ == "__main__":
 # export FLASK_APP=fl-app.py
 # sudo -E flask run --host=switch-hub.local --port=80 --cert=adhoc
 # sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key
+
+# export FLASK_APP=fl-app.py & sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key
