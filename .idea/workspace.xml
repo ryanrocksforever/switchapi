@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/switchapi/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asdfasdf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountpost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testphp.php" beforeDir="false" afterPath="$PROJECT_DIR$/testphp.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587161230337</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix">
+      <created>1587228740619</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587228740619</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test">
+      <created>1587228844327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587228844327</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <created>1587228950565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587228950565</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -171,20 +184,21 @@
     <MESSAGE value="add stuff" />
     <MESSAGE value="add fileapi.html" />
     <MESSAGE value="add redundency" />
-    <MESSAGE value="fix" />
     <MESSAGE value="dfasdfasdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfasdfasdf" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587065006687">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587065006687" />
-    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587228843400">
+    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587228949001">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="496" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1587161229831" />
-    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587228843400" />
+    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587228949001" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1587065791645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -205,11 +219,11 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="6" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587153882700" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587228847832">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587228953710">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587161234896" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587228847832" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587228953710" />
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587160590557">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

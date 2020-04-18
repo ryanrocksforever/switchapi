@@ -174,10 +174,9 @@ def account():
         # else:
         #     print("Not present")
         #     userid = None
-        # if userid is not None:
-        #     return {'id': userid}
-        # else:
-        return {'id': "none"}
+        userid = None
+        return {'id': userid}
+
 
 
 
