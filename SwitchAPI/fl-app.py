@@ -163,10 +163,10 @@ def account():
         openfile = open("accounts.txt", "r")
         jsonid = openfile.read()
         print(jsonid)
-        # jsonid = jsonid.replace("'", '"')
+        jsonid = jsonid.replace("'", '"')
         #jsonid = {"id": "poopman"}
         print(jsonid)
-        #jsonid = json.loads(jsonid)
+        jsonid = json.loads(jsonid)
         print(jsonid)
         #openfile.close()
         if "id" in jsonid.keys():
