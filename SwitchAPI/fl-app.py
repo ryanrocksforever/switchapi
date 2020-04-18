@@ -152,11 +152,13 @@ def account():
         jsondata = request.data
 
         openfile = open("accounts.txt", "w")
-        openfile.write(repr(jsondata))
+        start = '"id": "'
+        end = '"'
+        openfile.write(start + jsondata["id"] + end)
         print(repr(jsondata))
         openfile.close()
         userid = jsondata["id"]
-        return {'success': jsondata["id"]}
+        return {'success': userid}
 
     if request.method == "GET":
 
