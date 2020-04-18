@@ -174,7 +174,7 @@ def account():
         else:
             print("Not present")
             userid = None
-        userid = None
+
         return {'id': userid}
 
 
