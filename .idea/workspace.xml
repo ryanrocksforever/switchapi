@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/switchapi/config/applicationhost.config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/asdfasdf.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accountpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testphp.php" beforeDir="false" afterPath="$PROJECT_DIR$/testphp.php" afterDir="false" />
     </list>
@@ -211,16 +215,5 @@
     </state>
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1587160590557" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587065882866" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SwitchAPI/fl-app.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

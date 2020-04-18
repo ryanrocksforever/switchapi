@@ -39,7 +39,7 @@ def files():
     if request.method == "POST":
         print("posting")
         jsondata = request.data
-        jsondata = jsondata
+
         print(jsondata)
         parseddata = jsondata
         adddata = parseddata['add']
@@ -113,7 +113,7 @@ def start():
 
     if request.method == "POST":
         jsondata = request.data
-        jsondata = json
+
         print(jsondata)
         filename = jsondata['filename']
         filename = "id"+filename+".py"
@@ -206,4 +206,4 @@ if __name__ == "__main__":
 # sudo -E flask run --host=switch-hub.local --port=80 --cert=adhoc
 # sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key
 
-# export FLASK_APP=fl-app.py & sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key
+# export FLASK_APP=fl-app.py && sudo -E flask run --host=switch-hub.local --port=80 --cert=server.crt --key=server.key

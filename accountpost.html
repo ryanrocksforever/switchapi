@@ -18,11 +18,12 @@
 </head>
 
 <body class="page_bg">
- <?php $current_user = wp_get_current_user(); $username = $current_user->display_name $a = '{"id": "'; $b = '"}'; $c = $a.$b; echo " $c \n"; ?>
+
     <div>
                     <div class="well">
                         <div id="generic-content-form">
-                            <form action="https://switch-hub.local:80/account" method="POST" >
+                            <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+                            <form action="https://switch-hub.local:80/account" method="POST" target="dummyframe">
                                 <fieldset>
                                 <div class="control-group">
                                     <label style="visibility: hidden;" for="id__content_type" class="control-label">Media type:</label>
@@ -38,22 +39,51 @@
                                     <label style="visibility: hidden;" for="id__content" class="control-label">Content:</label>
                                     <div class="controls">
                                         <!--<textarea name="_content" cols="40" rows="10">{"id": "posasd"}</textarea> -->
-                                        <input type="text" name="_content" class="form-control-plaintext" id="mytext" value= >
-                                        <script>
-                                            var start = '{"id": "'
-                                            var end = '"}'
-                                            var x = document.getElementById("mytext")
-                                            var blaj = start.concat(x)
-                                            var haj = vlaj.concat(end)
-                                            document.getElementById("_content").value = vlaj;
-                                        </script>
-                                        <input type="text" name="_content" class="form-control-plaintext" id="_content" >
+                                        <p>Username</p>
+                                        <input type="text" id="myInput" oninput="myFunction()">
 
+                                        <p id="demo"></p>
+
+                                        <script>
+                                            var request = new XMLHttpRequest()
+                                            request.open('GET', 'https://switch-hub.local:80/account', true)
+
+                                            request.onload = function() {
+                                              // Begin accessing JSON data here
+                                            }
+
+                                            // Send request
+                                            request.send()
+                                            var data = JSON.parse(this.response)
+                                            console.log(data)
+                                            var userid = data.id
+                                            function myFunction(userid) {
+
+                                              var x = document.getElementById("myInput").value;
+                                              var start = "{\"id\": \"";
+                                              var end = "\"}";
+
+                                              var res = start.concat(x, end);
+
+                                              document.getElementById("demo").innerHTML = "You wrote: " + x;
+                                              if (x = names){
+                                                document.getElementById("_content").value = "Already Registered";
+                                                element = document.querySelector('.form-control-plaintext');
+                                                element1 = document.querySelector('.btn btn-primary');
+                                                element.style.visibility = 'hidden';
+                                                element1.style.visibility = 'hidden';
+                                              } else {
+                                                document.getElementById("_content").value = res;
+                                              }
+
+                                               }
+                                        </script>
+                                        <input style="visibility: hidden;" type="text" readonly name="_content" class="form-control-plaintext" id="_content" >
                                     </div>
                                 </div>
                                 <div class="form-actions">
 
-                                    <button class="btn btn-primary" title="Make a POST request on the resource">Register</button>
+                                    <button class="btn btn-primary" onclick="location.href = 'https://ryanindustries.atamenterprise.net/?page_id=134';" title="Make a POST request on the resource">Register</button>
 
 
 
