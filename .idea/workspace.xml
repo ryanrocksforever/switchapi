@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587229462716</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test">
+      <created>1587229523873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587229523873</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <created>1587229641404</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587229641404</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -223,11 +236,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587065006687" />
-    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587229522997">
+    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587229640464">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="496" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1587161229831" />
-    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587229522997" />
+    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587229640464" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1587065791645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
