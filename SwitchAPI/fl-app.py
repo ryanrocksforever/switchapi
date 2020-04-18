@@ -166,9 +166,9 @@ def account():
         # jsonid = jsonid.replace("'", '"')
         jsonid = {"id": "poopman"}
         print(jsonid)
-        jsonid = json.loads(jsonid)
+        #jsonid = json.loads(jsonid)
         print(jsonid)
-        openfile.close()
+        #openfile.close()
         if "id" in jsonid.keys():
             userid = jsonid["id"]
         else:
