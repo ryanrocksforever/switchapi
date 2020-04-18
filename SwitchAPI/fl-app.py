@@ -160,11 +160,11 @@ def account():
 
     if request.method == "GET":
 
-        # openfile = open("accounts.txt", "r")
-        # jsonid = openfile.read()
-        # print(jsonid)
+        openfile = open("accounts.txt", "r")
+        jsonid = openfile.read()
+        print(jsonid)
         # jsonid = jsonid.replace("'", '"')
-        jsonid = {"id": "poopman"}
+        #jsonid = {"id": "poopman"}
         print(jsonid)
         #jsonid = json.loads(jsonid)
         print(jsonid)
