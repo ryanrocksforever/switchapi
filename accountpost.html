@@ -45,18 +45,19 @@
                                         <p id="demo"></p>
 
                                         <script>
-                                            var request = new XMLHttpRequest()
-                                            request.open('GET', 'https://switch-hub.local:80/account', true)
+                                            const fetchPromise = fetch("https://switch-hub.local:80/account");
+                                            // Target main element
+                                            const main = document.getElementById("main1");
+                                            fetchPromise.then(response => {
+                                                return response.json();
+                                            }).then(people => {
+                                                const names = people.id;
+                                                // Append names to main element
+                                                console.log(names);
+                                                return(names);
+                                            });
 
-                                            request.onload = function() {
-                                              // Begin accessing JSON data here
-                                            }
-
-                                            // Send request
-                                            request.send()
-                                            var data = JSON.parse(this.response)
-                                            console.log(data)
-                                            var userid = data.id
+                                            var userid = names;
                                             function myFunction(userid) {
 
                                               var x = document.getElementById("myInput").value;
@@ -66,7 +67,7 @@
                                               var res = start.concat(x, end);
 
                                               document.getElementById("demo").innerHTML = "You wrote: " + x;
-                                              if (x = names){
+                                              if (x = userid){
                                                 document.getElementById("_content").value = "Already Registered";
                                                 element = document.querySelector('.form-control-plaintext');
                                                 element1 = document.querySelector('.btn btn-primary');

@@ -152,8 +152,8 @@ def account():
         jsondata = request.data
 
         openfile = open("accounts.txt", "w")
-        start = '"id": "'
-        end = '"'
+        start = '{"id": "'
+        end = '"}'
         openfile.write(start + jsondata["id"] + end)
         print(repr(jsondata))
         openfile.close()
