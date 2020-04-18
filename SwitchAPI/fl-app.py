@@ -179,6 +179,41 @@ def account():
         else:
             return {'id': "none"}
 
+@app.route('/acount', methods=["GET", "POST"])
+def acount():
+    global userid
+    if request.method == "POST":
+
+        jsondata = request.data
+
+        openfile = open("accounts.txt", "w")
+        openfile.write(repr(jsondata))
+        print(repr(jsondata))
+        openfile.close()
+        userid = jsondata["id"]
+        return {'success': jsondata["id"]}
+
+    if request.method == "GET":
+
+        openfile = open("accounts.txt", "r")
+        jsonid = openfile.read()
+        print(jsonid)
+        jsonid = jsonid.replace("'", '"')
+
+        print(jsonid)
+        jsonid = json.loads(jsonid)
+        print(jsonid)
+        openfile.close()
+        if "id" in jsonid.keys():
+            userid = jsonid["id"]
+        else:
+            print("Not present")
+            userid = None
+        if userid is not None:
+            return {'id': userid}
+        else:
+            return {'id': "none"}
+
 
 @app.route('/device', methods=["GET"])
 def device():
