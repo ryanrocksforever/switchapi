@@ -164,16 +164,16 @@ def account():
         # jsonid = openfile.read()
         # print(jsonid)
         # jsonid = jsonid.replace("'", '"')
-        #
-        # print(jsonid)
-        # jsonid = json.loads(jsonid)
-        # print(jsonid)
-        # openfile.close()
-        # if "id" in jsonid.keys():
-        #     userid = jsonid["id"]
-        # else:
-        #     print("Not present")
-        #     userid = None
+        jsonid = {"id": "poopman"}
+        print(jsonid)
+        jsonid = json.loads(jsonid)
+        print(jsonid)
+        openfile.close()
+        if "id" in jsonid.keys():
+            userid = jsonid["id"]
+        else:
+            print("Not present")
+            userid = None
         userid = None
         return {'id': userid}
 
