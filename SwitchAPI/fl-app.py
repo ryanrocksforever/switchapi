@@ -92,18 +92,19 @@ def files():
     if request.method == "GET":
         print("getting")
         files = os.listdir('./scripts')
-        returnlist = {}
+        a = {}
+        a.setdefault("i", [])
         for i in files:
 
-            num = i[0]
+            #num = i[0]
 
             filenoext = i[:-3]
             #i = "id"
             filenoid = filenoext[1:]
-            returnlist.update({num: filenoid})
+            a["i"].append(filenoid)
 
 
-        return returnlist
+        return a
 
 
 @app.route('/start', methods=["GET", "POST"])
