@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/accounts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accountpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileapi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fileapi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SwitchAPI/scripts" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587230327513</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="test">
+      <created>1587231243714</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587231243714</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -253,11 +259,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587065006687" />
-    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587230326620">
+    <state x="934" y="293" key="CommitChangelistDialog2" timestamp="1587231242518">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="496" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1587161229831" />
-    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587230326620" />
+    <state x="934" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1587231242518" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1587065791645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -278,11 +284,11 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="6" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587153882700" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587230339258">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587231245899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587161234896" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587230339258" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587231245899" />
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587160590557">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

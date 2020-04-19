@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AMAZ-TECH | Fetch API</title>
-    <link rel="stylesheet" href="style/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
+
     <style>
         .w3-allerta {
             font-family: "Allerta Stencil", Sans-serif;
@@ -21,7 +21,7 @@
 
     <div>
                     <div class="well">
-                        <div id="generic-content-form">
+                        <div class="gcontentform" id="generic-content-form">
                             <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
                             <form action="https://switch-hub.local:80/account" method="POST" target="dummyframe">
                                 <fieldset>
@@ -39,52 +39,83 @@
                                     <label style="visibility: hidden;" for="id__content" class="control-label">Content:</label>
                                     <div class="controls">
                                         <!--<textarea name="_content" cols="40" rows="10">{"id": "posasd"}</textarea> -->
-                                        <p>Username</p>
-                                        <input type="text" id="myInput" oninput="myFunction()">
+                                        <p>Register User</p>
+                                        <input id="usernamelab" readonly value="Username"></input>
+                                        <br>
+                                        <br>
 
+                                        <input type="text" id="myInput" oninput="myFunction()">
+                                        <input style="visibility: hidden;" type="text" readonly name="_content" class="form-control-plaintext" id="_content" >
                                         <p id="demo"></p>
 
                                         <script>
-                                            const fetchPromise = fetch("https://switch-hub.local:80/account");
-                                            // Target main element
-                                            const main = document.getElementById("main1");
-                                            fetchPromise.then(response => {
-                                                return response.json();
-                                            }).then(people => {
-                                                const names = people.id;
-                                                // Append names to main element
-                                                console.log(names);
-                                                return(names);
-                                            });
+                                            async function apicall() {
+                                                const fetchPromise = fetch("https://switch-hub.local:80/account");
+                                                // Target main element
+                                                const main = document.getElementById("main1");
+                                                fetchPromise.then(response => {
+                                                    return response.json();
+                                                }).then(people => {
+                                                    names = people.id;
+                                                    udist = names.charAt(0)
+                                                    // Append names to main element
+                                                    //console.log(names);
+                                                    //console.log(udist);
+                                                    return(names, udist);
 
-                                            var userid = names;
-                                            function myFunction(userid) {
+                                                });
+                                                }
 
+
+                                            count = 0
+
+                                            names = "0000"
+                                            function myFunction() {
+
+                                              if(count == 0) {
+                                                   userid = apicall();
+                                               //console.log("firstTijme");
+                                               count = count + 1;
+                                               }
+                                              userid = apicall();
+                                              //console.log(userid);
                                               var x = document.getElementById("myInput").value;
                                               var start = "{\"id\": \"";
                                               var end = "\"}";
-
+                                              //console.log(userid);
                                               var res = start.concat(x, end);
-
+                                              //console.log(res)
                                               document.getElementById("demo").innerHTML = "You wrote: " + x;
-                                              if (x = userid){
+
+                                              var xstart = x.charAt(0);
+                                              //var uidst = userid.charAt(0)
+                                              //console.log(udist);
+                                              //console.log(xstart);
+
+                                              if (x.charAt(0) == udist){
+                                                console.log("boo hoo");
                                                 document.getElementById("_content").value = "Already Registered";
-                                                element = document.querySelector('.form-control-plaintext');
-                                                element1 = document.querySelector('.btn btn-primary');
-                                                element.style.visibility = 'hidden';
-                                                element1.style.visibility = 'hidden';
+                                                document.getElementById("_content").value = "Already Registered";
+                                                document.getElementById("usernamelab").value = "User Already Registered";
+                                                //document.getElementById("form-control-plaintext").style.visibility = "hidden";
+                                                document.getElementById("regbutt").style.visibility = "hidden";
+
                                               } else {
                                                 document.getElementById("_content").value = res;
+                                                document.getElementById("regbutt").style.visibility = "visible";
+                                                document.getElementById("usernamelab").value = "Username";
+                                                //console.log("excellent");
+                                              }
                                               }
 
-                                               }
+
                                         </script>
-                                        <input style="visibility: hidden;" type="text" readonly name="_content" class="form-control-plaintext" id="_content" >
+
                                     </div>
                                 </div>
                                 <div class="form-actions">
 
-                                    <button class="btn btn-primary" onclick="location.href = 'https://ryanindustries.atamenterprise.net/?page_id=134';" title="Make a POST request on the resource">Register</button>
+                                    <button id="regbutt" class="btn btn-primary" onclick="location.href = 'https://ryanindustries.atamenterprise.net/?page_id=134';" title="Make a POST request on the resource">Register</button>
 
 
 
@@ -98,6 +129,8 @@
 
 
 
+
+</style>
 </body>
 
 </html>

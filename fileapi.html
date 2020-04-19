@@ -2,25 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Studio Ghibli</title>
+  <title>Studio Ghibli Info</title>
 </head>
 <body>
-  <p>poop</p>
+  <h1>Studio Ghibli Characters</h1>
   <div id="main"></div>
   <script>
-  const fetchPromise = fetch("https://switch-hub.local:80/files");
-  // Target main element
-  const main = document.getElementById("main");
-  fetchPromise.then(response => {
-    return response.json();
-  }).then(people => {
-    var htm = "<p> poop </p>"
-    for(var i = 0; i < people.length; i++) {
-    htm +='<div class="notes">' + '<h5>'+people.i+'</h5>' + '</div>';
-    console.log(htm);
+  async function getUsers() {
+    let response = await fetch("https://switch-hub.local:80/files");
+    let data = await response.json();
+    return data;
     }
-    main.innerHTML = htm;
-  });
-  </script>
+  getUsers().then(data => makelabels(data));
+  function makelabels(data) {
+  console.log(data.);
+  }
+
+
+</script>
 </body>
 </html>
