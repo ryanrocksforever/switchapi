@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="">
+    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileapi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fileapi.html" afterDir="false" />
     </list>
@@ -157,6 +157,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ianimal-crossing-new-horizons-buy-fruits" />
+        <item itemvalue="Python.i0animalcrossing" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587153893029</updated>
       <workItem from="1587399970729" duration="163000" />
-      <workItem from="1587400199507" duration="1746000" />
+      <workItem from="1587400199507" duration="2332000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -376,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587355730606</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="FIx Scipts">
+      <created>1587411404178</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587411404178</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +413,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="add scipts" />
     <MESSAGE value="fix start stop action" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix start stop action" />
+    <MESSAGE value="FIx Scipts" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIx Scipts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1165" y="563" key="#Notifications" timestamp="1587410700524">
@@ -429,39 +438,40 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587410985128" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1587356585082">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1587411683057">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587356585082" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1587356585081">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587411683057" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1587411683057">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587356585081" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1587356585081">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587411683057" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1587411683057">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587356585081" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1587356585081">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587411683057" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1587411683057">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587356585081" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587411683057" />
     <state x="341" y="12" key="SettingsEditor" timestamp="1587411015850">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="181" y="6" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587153882700" />
     <state x="341" y="12" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1587411015850" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587355732514">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587411439707">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587161234896" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587355732514" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587411020599">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411439707" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587411442451">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1587160590557" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411020599" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411442451" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/switchapi$ianimal_crossing_new_horizons_buy_fruits.coverage" NAME="ianimal-crossing-new-horizons-buy-fruits Coverage Results" MODIFIED="1587411165111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI/scripts" />
+    <SUITE FILE_PATH="coverage/switchapi$ianimal_crossing_new_horizons_buy_fruits.coverage" NAME="ianimal-crossing-new-horizons-buy-fruits Coverage Results" MODIFIED="1587411683051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI/scripts" />
+    <SUITE FILE_PATH="coverage/switchapi$i0animalcrossing.coverage" NAME="i0animalcrossing Coverage Results" MODIFIED="1587411667378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI/scripts" />
   </component>
 </project>
