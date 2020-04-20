@@ -18,8 +18,10 @@ from flask_cors import CORS
 
 app = FlaskAPI(__name__)
 CORS(app)
-
+global running
+global alreadydone
 running = False
+alreadydone = False
 
 sys.path.insert(1, './scripts')
 
@@ -118,7 +120,7 @@ def start():
         print(running)
         print(alreadydone)
         jsondata = request.data
-        if running is False:
+        if running is not True:
             running = True
             print(running)
             print(jsondata)
@@ -134,7 +136,7 @@ def start():
             print(running)
             alreadydone = True
 
-        if running is True and alreadydone is not True:
+        if running is not False and alreadydone is not True:
             print("stopping")
             print(jsondata)
             print(running)
