@@ -120,13 +120,12 @@ def start():
             filename = "i" + filename + ".py"
             # subprocess.call("ls", cwd="scripts/")
             p = subprocess.Popen(['python', filename], cwd="scripts/")
-
-
+            print("running")
             running = True
         if running is True:
             p.terminate()
             running = False
-
+            print("stopping")
         return {'running': running}
 
     if request.method == "GET":
