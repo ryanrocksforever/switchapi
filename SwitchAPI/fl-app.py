@@ -30,8 +30,10 @@ def api_root():
         "mom found the poop sock": "uh oh she found the pee drawer too"
     }
 
+
 def transform(multilevelDict):
-    return {str(key)+"abc" : (transform(value) if isinstance(value, dict) else value) for key, value in multilevelDict.items()}
+    return {str(key) + "abc": (transform(value) if isinstance(value, dict) else value) for key, value in
+            multilevelDict.items()}
 
 
 @app.route('/files', methods=["GET", "POST"])
@@ -95,14 +97,12 @@ def files():
         a = {}
         a.setdefault("i", [])
         for i in files:
-
-            #num = i[0]
+            # num = i[0]
 
             filenoext = i[:-3]
-            #i = "id"
+            # i = "id"
             filenoid = filenoext[1:]
             a["i"].append(filenoid)
-
 
         return a
 
@@ -114,15 +114,17 @@ def start():
 
     if request.method == "POST":
         jsondata = request.data
+        if running is False:
+            print(jsondata)
+            filename = jsondata['filename']
+            filename = "i" + filename + ".py"
+            # subprocess.call("ls", cwd="scripts/")
+            p = subprocess.Popen(['python', filename], cwd="scripts/")
 
-        print(jsondata)
-        filename = jsondata['filename']
-        filename = "id"+filename+".py"
-        # subprocess.call("ls", cwd="scripts/")
-        p = subprocess.Popen(['python', filename], cwd="scripts/")
-
-        global running
-        running = True
+            global running
+            running = True
+        if running is True:
+            p.terminate()
 
         return {'running': running}
 
@@ -139,6 +141,7 @@ def stop():
             p.terminate()
             running = False
 
+
         return {'running': running}
 
     if request.method == "GET":
@@ -149,7 +152,6 @@ def stop():
 def account():
     global userid
     if request.method == "POST":
-
         jsondata = request.data
 
         openfile = open("accounts.txt", "w")
@@ -167,11 +169,11 @@ def account():
         jsonid = openfile.read()
         print(jsonid)
         jsonid = jsonid.replace("'", '"')
-        #jsonid = {"id": "poopman"}
+        # jsonid = {"id": "poopman"}
         print(jsonid)
         jsonid = json.loads(jsonid)
         print(jsonid)
-        #openfile.close()
+        # openfile.close()
         if "id" in jsonid.keys():
             userid = jsonid["id"]
         else:
@@ -179,8 +181,6 @@ def account():
             userid = None
 
         return {'id': userid}
-
-
 
 
 @app.route('/device', methods=["GET"])
