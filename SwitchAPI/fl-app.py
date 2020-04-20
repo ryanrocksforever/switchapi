@@ -125,6 +125,7 @@ def start():
             running = True
         if running is True:
             p.terminate()
+            running = False
 
         return {'running': running}
 
