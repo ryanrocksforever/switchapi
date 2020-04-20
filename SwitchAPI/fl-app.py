@@ -114,6 +114,7 @@ def start():
     global alreadydone
 
     if request.method == "POST":
+        print("posted")
         jsondata = request.data
         if running is False:
             running = True
@@ -130,6 +131,7 @@ def start():
 
         if running is True and alreadydone is not True:
             print("stopping")
+            print(jsondata)
             try:
                 p.terminate()
                 print("stopping")
