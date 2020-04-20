@@ -9,7 +9,7 @@ parser.add_argument('port')
 args = parser.parse_args()
 
 def send(msg, duration=0):
-    print(f'{datetime.datetime.now()} {msg}')
+    #print(f'{datetime.datetime.now()} {msg}')
     ser.write(f'{msg}\r\n'.encode('utf-8'))
     sleep(duration)
     ser.write(b'RELEASE\r\n')
