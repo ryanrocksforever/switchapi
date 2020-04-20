@@ -4,11 +4,9 @@
   <meta charset="UTF-8">
   <title>Studio Ghibli Info</title>
 </head>
-<body>
+<body id="main">
   <h1>Studio Ghibli Characters</h1>
-  <div id="main">
-    <input id="dud" value="poop"></input>
-  </div>
+
   <script>
   async function getUsers() {
     let response = await fetch("https://switch-hub.local:80/files");
@@ -27,7 +25,7 @@
     var start = "<div id=\"";
     var second = "\"> <p>";
     var third = "</p> <button onclick=\"runfunction("
-    var five = ")\" value=\"Start\" style=\"color:green;\" id=\""
+    var five = ")\" value=\"Start\" style=\"color:black;\" id=\""
 
     var four = "\">Start</button> </div>"
     var start1 = start.concat(key);
@@ -71,5 +69,38 @@
   }
 
 </script>
+
+
 </body>
+<style>
+  div {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    margin: 1%;
+  }
+  button {
+
+    //background-color: #4CAF50;
+    border: solid #4CAF50;
+    border-width:  2px;
+    //border: #4CAF50;
+    color: green;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25%;
+
+  }
+
+</style>
 </html>

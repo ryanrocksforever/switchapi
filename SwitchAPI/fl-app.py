@@ -128,10 +128,11 @@ def start():
             print("running")
             alreadydone = True
 
-
         if running is True and alreadydone is not True:
             try:
                 p.terminate()
+                print("stopping")
+                running = False
             except:
                 print("error")
             running = False
@@ -150,7 +151,6 @@ def stop():
         if running is True:
             p.terminate()
             running = False
-
 
         return {'running': running}
 
