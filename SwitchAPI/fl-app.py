@@ -116,17 +116,24 @@ def start():
     if request.method == "POST":
         jsondata = request.data
         if running is False:
+            running = True
             print(jsondata)
             filename = jsondata['filename']
             filename = "i" + filename + ".py"
             # subprocess.call("ls", cwd="scripts/")
-            p = subprocess.Popen(['python', filename], cwd="scripts/")
+            try:
+                p = subprocess.Popen(['python', filename], cwd="scripts/")
+            except:
+                running = False
             print("running")
             alreadydone = True
-            running = True
+
 
         if running is True and alreadydone is not True:
-            p.terminate()
+            try:
+                p.terminate()
+            except:
+                print("error")
             running = False
             print("stopping")
         return {'running': running}
