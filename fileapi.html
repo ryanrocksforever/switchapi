@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Studio Ghibli Info</title>
+  <title>Games</title>
 </head>
 <body id="main">
-  <h1>Studio Ghibli Characters</h1>
+<h1>Games</h1>
 
   <script>
   async function getUsers() {
@@ -28,7 +28,7 @@
     var five = ")\" value=\"Start\" style=\"color:black;\" id=\""
 
     var four = "\">Start</button> </div>"
-    var start1 = start.concat(key);
+    var start1 = start.concat(key.concat("div"));
     var start2 = start1.concat(second, data.i[key]);
     var start3 = start2.concat(third, key, five, key);
     var start4 = start3.concat(four);
@@ -60,12 +60,20 @@
   });
   for (var key of Object.keys(window.data.i)) {
     console.log(key)
-    if (this.value=="Start") this.value = "Stop";
-    else this.value = "Start";
+    if (document.getElementById(key).innerText == "Start") {
+      var foof = document.getElementById(key).innerText;
+      console.log(foof);
+      document.getElementById(key).innerText = "Stop";
+      console.log("stop")
+    } else {
+      document.getElementById(key).innerText = "Start";
+      console.log("Start")
+    }
     //document.getElementById(key).textContent += 'stop';
     console.log("done");
 
   }
+
   }
 
 </script>
