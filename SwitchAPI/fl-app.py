@@ -111,6 +111,7 @@ def files():
 def start():
     global running
     global p
+    global alreadydone
 
     if request.method == "POST":
         jsondata = request.data
