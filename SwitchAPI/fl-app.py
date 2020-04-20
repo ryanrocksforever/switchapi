@@ -150,7 +150,7 @@ def start():
             running = False
             print("stopping")
         alreadydone = False
-        print("already done: " + alreadydone)
+        print("already done: " + repr(alreadydone))
         return {'running': running}
 
 
