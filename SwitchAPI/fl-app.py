@@ -150,8 +150,8 @@ def start():
             running = False
             print("stopping")
         return {'running': running}
-    alreadydone = False
-    print("already done: " + alreadydone)
+        alreadydone = False
+        print("already done: " + alreadydone)
     if request.method == "GET":
         return {'running': running}
 
