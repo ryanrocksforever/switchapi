@@ -149,9 +149,11 @@ def start():
                 print("error")
             running = False
             print("stopping")
-        return {'running': running}
         alreadydone = False
         print("already done: " + alreadydone)
+        return {'running': running}
+
+
     if request.method == "GET":
         return {'running': running}
 
