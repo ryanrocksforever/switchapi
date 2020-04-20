@@ -121,13 +121,15 @@ def start():
             # subprocess.call("ls", cwd="scripts/")
             p = subprocess.Popen(['python', filename], cwd="scripts/")
             print("running")
+            alreadydone = True
             running = True
-        if running is True:
+
+        if running is True and alreadydone is not True:
             p.terminate()
             running = False
             print("stopping")
         return {'running': running}
-
+    alreadydone = False
     if request.method == "GET":
         return {'running': running}
 
