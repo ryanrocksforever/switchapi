@@ -29,7 +29,7 @@
     var third = "</p> <button onclick=\"runfunction("
     var five = ")\" value=\"Start\" style=\"color:green;\" id=\""
 
-    var four = "\">Bruff</button> </div>"
+    var four = "\">Start</button> </div>"
     var start1 = start.concat(key);
     var start2 = start1.concat(second, data.i[key]);
     var start3 = start2.concat(third, key, five, key);
@@ -60,6 +60,14 @@
   .catch((error) => {
     console.error('Error:', error);
   });
+  for (var key of Object.keys(window.data.i)) {
+    console.log(key)
+    if (this.value=="Start") this.value = "Stop";
+    else this.value = "Start";
+    //document.getElementById(key).textContent += 'stop';
+    console.log("done");
+
+  }
   }
 
 </script>
