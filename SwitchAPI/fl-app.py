@@ -129,6 +129,7 @@ def start():
             alreadydone = True
 
         if running is True and alreadydone is not True:
+            print("stopping")
             try:
                 p.terminate()
                 print("stopping")
