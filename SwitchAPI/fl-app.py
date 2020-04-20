@@ -115,6 +115,8 @@ def start():
 
     if request.method == "POST":
         print("posted")
+        print(running)
+        print(alreadydone)
         jsondata = request.data
         if running is False:
             running = True

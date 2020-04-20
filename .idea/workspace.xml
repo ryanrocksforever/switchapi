@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
-    </list>
+    <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +192,7 @@
       <updated>1587153893029</updated>
       <workItem from="1587399970729" duration="163000" />
       <workItem from="1587400199507" duration="2690000" />
-      <workItem from="1587415374398" duration="4095000" />
+      <workItem from="1587415374398" duration="4400000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -407,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587418829016</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="FIx Scipts">
+      <created>1587419482923</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1587419482923</updated>
+    </task>
+    <task id="LOCAL-00035" summary="FIx Scipts">
+      <created>1587419649335</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1587419649335</updated>
+    </task>
+    <task id="LOCAL-00036" summary="FIx Scipts">
+      <created>1587419779305</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1587419779305</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,10 +511,10 @@
     </state>
     <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587415947343" />
     <state x="341" y="12" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1587411015850" />
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587418835888">
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587419781598">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587418835888" />
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587419781598" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411773441" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587411442451">
       <screen x="0" y="0" width="2560" height="1400" />
