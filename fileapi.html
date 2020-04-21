@@ -43,7 +43,7 @@
     //data = window.data
    // datatopost = {filename: window.data.i[key]}
     const data = { filename: window.data.i[key] };
-
+    var keything = key
   fetch('https://switch-hub.local:80/start', {
     method: 'POST', // or 'PUT'
     headers: {
@@ -60,16 +60,34 @@
   });
   for (var key of Object.keys(window.data.i)) {
     console.log(key)
-    if (document.getElementById(key).innerText == "Start") {
-      var foof = document.getElementById(key).innerText;
-      console.log(foof);
-      document.getElementById(key).innerText = "Stop";
-      console.log("stop")
+    if (key == keything){
+      if (document.getElementById(key).innerText == "Start") {
+        var foof = document.getElementById(key).innerText;
+        console.log(foof);
+        document.getElementById(key).innerText = "Stop";
+        console.log("stop")
+      } else {
+        document.getElementById(key).innerText = "Start";
+        console.log("Start")
+      }
+      //document.getElementById(key).textContent += 'stop';
+      console.log("done");
+
     } else {
-      document.getElementById(key).innerText = "Start";
-      console.log("Start")
+      if (document.getElementById(key).innerText == "Start") {
+        var foof = document.getElementById(key).innerText;
+        console.log(foof);
+        document.getElementById(key).innerText = "Disabled";
+        document.getElementById(key).disabled = true;
+        console.log("stop")
+      } else {
+        document.getElementById(key).innerText = "Start";
+        document.getElementById(key).disabled = false;
+        console.log("Start")
+      }
+      //document.getElementById(key).textContent += 'stop';
     }
-    //document.getElementById(key).textContent += 'stop';
+
     console.log("done");
 
   }
@@ -81,6 +99,82 @@
 
 </body>
 <style>
+  @import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+  // Mixin below used to center the button. If using in production, remove the mixin and add position relative or absolute to button.
+
+  @mixin center($extend: true) {
+    @if $extend {
+    @extend %center;
+    } @else {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  }
+
+  %center {
+   @include center($extend: false);
+   }
+
+
+
+  button{
+  @include center;
+
+    color: #ccc;
+
+    border: 0;
+    font-size: 18px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    transition: .6s;
+    overflow: hidden;
+  &:focus{
+     outline: 0;
+   }
+  &:before{
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255,255,255,0.5);
+     width: 60px;
+     height: 100%;
+     left: 0;
+     top: 0;
+     opacity: .5;
+     filter: blur(30px);
+     transform: translateX(-100px)  skewX(-15deg);
+   }
+  &:after{
+     content: '';
+     display: block;
+     position: absolute;
+     background: rgba(255,255,255,0.2);
+     width: 30px;
+     height: 100%;
+     left: 30px;
+     top: 0;
+     opacity: 0;
+     filter: blur(5px);
+     transform: translateX(-100px) skewX(-15deg);
+   }
+  &:hover{
+     background: #338033;
+     cursor: pointer;
+  &:before{
+     transform: translateX(300px)  skewX(-15deg);
+     opacity: 0.6;
+     transition: .7s;
+   }
+  &:after{
+     transform: translateX(300px) skewX(-15deg);
+     opacity: 1;
+     transition: .7s;
+   }
+  }
+  }
   div {
     border-radius: 25px;
     border: 2px solid #73AD21;
@@ -108,6 +202,19 @@
     margin: 4px 2px;
     border-radius: 25%;
 
+  }
+  button:hover {
+    border: 1px solid black;
+    background-color: #999999;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+
+  button:disabled,
+  button[disabled]{
+    border: 1px solid #999999;
+    background-color: darkred;
+    color: #666666;
   }
 
 </style>

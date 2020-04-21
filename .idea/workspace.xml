@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
+      <change afterPath="$PROJECT_DIR$/locklyblocks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchAPI/scripts/i0animalcrossing.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/scripts/i0animalcrossing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileapi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fileapi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,6 +198,8 @@
       <workItem from="1587399970729" duration="163000" />
       <workItem from="1587400199507" duration="2690000" />
       <workItem from="1587415374398" duration="8146000" />
+      <workItem from="1587428420953" duration="3014000" />
+      <workItem from="1587495418390" duration="1794000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -559,10 +563,5 @@
     </state>
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1587160590557" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411442451" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/switchapi$fl_app.coverage" NAME="fl-app Coverage Results" MODIFIED="1587418590132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI" />
-    <SUITE FILE_PATH="coverage/switchapi$ianimal_crossing_new_horizons_buy_fruits.coverage" NAME="ianimal-crossing-new-horizons-buy-fruits Coverage Results" MODIFIED="1587411683051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI/scripts" />
-    <SUITE FILE_PATH="coverage/switchapi$i0animalcrossing.coverage" NAME="i0animalcrossing Coverage Results" MODIFIED="1587425161453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SwitchAPI/scripts" />
   </component>
 </project>

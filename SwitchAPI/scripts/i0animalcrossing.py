@@ -45,7 +45,7 @@ class Hat():
 
 class Joystick():
     UP = "UP"
-    LEFT = "LEFT"
+    LEFT = "LX MIN"
     RIGHT = "RIGHT"
     DOWN = "DOWN"
 
