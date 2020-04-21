@@ -57,7 +57,7 @@ def send(msg, duration=0):
     ser.write(b'RELEASE\r\n')
 
 
-port = 'COM1'
+port = 'COM5'
 global ser
 ser = serial.Serial(port, 9600)
 

@@ -19,7 +19,9 @@ from flask_cors import CORS
 app = FlaskAPI(__name__)
 CORS(app)
 global running
+global alreadydone
 running = False
+alreadydone = False
 
 sys.path.insert(1, './scripts')
 
@@ -114,34 +116,44 @@ def start():
     global alreadydone
 
     if request.method == "POST":
+        print("posted")
+        print(running)
+        print(alreadydone)
         jsondata = request.data
-        if running is False:
+        if running is not True:
             running = True
+            print(running)
             print(jsondata)
             filename = jsondata['filename']
             filename = "i" + filename + ".py"
             # subprocess.call("ls", cwd="scripts/")
             try:
                 p = subprocess.Popen(['python', filename], cwd="scripts/")
-                alreadydone = True
+                print(running)
             except:
                 running = False
-                print("error")
-                alreadydone = True
-
             print("running")
+            print(running)
             alreadydone = True
 
-
-        if running is True and alreadydone is not True:
+        if running is not False and alreadydone is not True:
+            print("stopping")
+            print(jsondata)
+            print(running)
             try:
+                print(running)
                 p.terminate()
+                print("stopping")
+                running = False
             except:
                 print("error")
             running = False
             print("stopping")
+        alreadydone = False
+        print("already done: " + repr(alreadydone))
         return {'running': running}
-    alreadydone = False
+
+
     if request.method == "GET":
         return {'running': running}
 
@@ -154,7 +166,6 @@ def stop():
         if running is True:
             p.terminate()
             running = False
-
 
         return {'running': running}
 
