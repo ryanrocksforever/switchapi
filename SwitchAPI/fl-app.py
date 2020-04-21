@@ -18,7 +18,7 @@ from flask_cors import CORS
 
 app = FlaskAPI(__name__)
 CORS(app)
-
+global running
 running = False
 
 sys.path.insert(1, './scripts')
@@ -123,8 +123,12 @@ def start():
             # subprocess.call("ls", cwd="scripts/")
             try:
                 p = subprocess.Popen(['python', filename], cwd="scripts/")
+                alreadydone = True
             except:
                 running = False
+                print("error")
+                alreadydone = True
+
             print("running")
             alreadydone = True
 

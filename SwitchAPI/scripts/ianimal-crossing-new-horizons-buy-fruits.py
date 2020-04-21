@@ -3,18 +3,18 @@ import argparse
 import serial
 from time import sleep
 import datetime
-
 parser = argparse.ArgumentParser()
-parser.add_argument('port')
+
 args = parser.parse_args()
 
+port = "COM4"
 def send(msg, duration=0):
     #print(f'{datetime.datetime.now()} {msg}')
     ser.write(f'{msg}\r\n'.encode('utf-8'))
     sleep(duration)
     ser.write(b'RELEASE\r\n')
 
-ser = serial.Serial(args.port, 9600)
+ser = serial.Serial(port, 9600)
 
 sleep(5)
 

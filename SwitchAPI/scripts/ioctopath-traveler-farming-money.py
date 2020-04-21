@@ -3,9 +3,7 @@ import argparse
 import serial
 from time import sleep
 
-parser = argparse.ArgumentParser()
-parser.add_argument('port')
-args = parser.parse_args()
+port = "COM4"
 
 def send(msg, duration=0):
     print(msg)
@@ -13,7 +11,7 @@ def send(msg, duration=0):
     sleep(duration)
     ser.write(b'RELEASE\r\n');
 
-ser = serial.Serial(args.port, 9600)
+ser = serial.Serial(port, 9600)
 
 send('Button A', 0.1)
 sleep(1)
