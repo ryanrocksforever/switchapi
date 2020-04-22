@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
-      <change afterPath="$PROJECT_DIR$/testjs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usersubmitfile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/scripts/i0animalcrossing.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/scripts/i0animalcrossing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,9 +54,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/google-blockly-3.20200402.1-0-g07762ff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ATAM PC 004\Documents\GitHub\switchapi" />
       <recent name="D:\Apps\Github\switchapi\SwitchAPI\scripts" />
       <recent name="C:\Users\ATAM PC 004\Documents\switchapi" />
     </key>
@@ -221,7 +224,8 @@
       <workItem from="1587399970729" duration="163000" />
       <workItem from="1587400199507" duration="2690000" />
       <workItem from="1587415374398" duration="8990000" />
-      <workItem from="1587501686946" duration="5581000" />
+      <workItem from="1587501686946" duration="6028000" />
+      <workItem from="1587592605411" duration="1736000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -496,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587425206967</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="FIx Scipts">
+      <created>1587511109750</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1587511109750</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +529,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add stuff" />
     <MESSAGE value="add fileapi.html" />
@@ -530,7 +541,6 @@
     <MESSAGE value="fix start stop action" />
     <MESSAGE value="FIx Scipts" />
     <option name="LAST_COMMIT_MESSAGE" value="FIx Scipts" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1165" y="563" key="#Notifications" timestamp="1587410700524">
@@ -568,25 +578,25 @@
     </state>
     <state x="563" y="237" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1587504809826" />
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587410985128" />
-    <state width="1317" height="166" key="GridCell.Tab.0.bottom" timestamp="1587510915183">
+    <state width="1317" height="166" key="GridCell.Tab.0.bottom" timestamp="1587511395943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587510915183" />
+    <state width="1317" height="166" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587511395943" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587412001889" />
-    <state width="1317" height="166" key="GridCell.Tab.0.center" timestamp="1587510915183">
+    <state width="1317" height="166" key="GridCell.Tab.0.center" timestamp="1587511395943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587510915183" />
+    <state width="1317" height="166" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587511395943" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587412001888" />
-    <state width="1317" height="166" key="GridCell.Tab.0.left" timestamp="1587510915183">
+    <state width="1317" height="166" key="GridCell.Tab.0.left" timestamp="1587511395943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587510915183" />
+    <state width="1317" height="166" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587511395943" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587412001888" />
-    <state width="1317" height="166" key="GridCell.Tab.0.right" timestamp="1587510915183">
+    <state width="1317" height="166" key="GridCell.Tab.0.right" timestamp="1587511395943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587510915183" />
+    <state width="1317" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587511395943" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587412001888" />
     <state x="128" y="55" key="MergeDialog" timestamp="1587501948248">
       <screen x="0" y="0" width="1360" height="728" />
@@ -597,10 +607,10 @@
     </state>
     <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587415947343" />
     <state x="341" y="12" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1587411015850" />
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587425218522">
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587511114797">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587425218522" />
+    <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587511114797" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587411773441" />
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587501937888">
       <screen x="0" y="0" width="1360" height="728" />

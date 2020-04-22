@@ -328,6 +328,7 @@ Code.renderContent = function () {
         Code.attemptCodeGeneration(Blockly.JavaScript);
     } else if (content.id == 'content_python') {
         Code.attemptCodeGeneration(Blockly.Python);
+
     } else if (content.id == 'content_php') {
         Code.attemptCodeGeneration(Blockly.PHP);
     } else if (content.id == 'content_dart') {
@@ -349,7 +350,9 @@ Code.attemptCodeGeneration = function (generator) {
     content.textContent = '';
     if (Code.checkAllGeneratorFunctionsDefined(generator)) {
         var code = generator.workspaceToCode(Code.workspace);
+        var pfof = "<div id=submitdiv> <H5>Submit</H5> </div>";
         content.textContent = code;
+        document.getElementById("content_python") += pfof;
         // Remove the 'prettyprinted' class, so that Prettify will recalculate.
         content.className = content.className.replace('prettyprinted', '');
     }
