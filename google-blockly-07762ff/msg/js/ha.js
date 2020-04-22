@@ -1,8 +1,8 @@
 // This file was automatically generated.  Do not modify.
-
-'use strict';
-
-Blockly.Msg["ADD_COMMENT"] = "Daɗa Sharhi";
+        
+        'use strict';
+        
+        Blockly.Msg["ADD_COMMENT"] = "Daɗa Sharhi";
 Blockly.Msg["CANNOT_DELETE_VARIABLE_PROCEDURE"] = "An kasa goge siffa '%1' sabo da tana daga sashi na bayanin aikin '%2'";
 Blockly.Msg["CHANGE_VALUE_TITLE"] = "Canza kima:";
 Blockly.Msg["CLEAN_UP"] = "A share Bululluka";
@@ -423,12 +423,12 @@ Blockly.Msg["PROCEDURES_DEFRETURN_TITLE"] = Blockly.Msg["PROCEDURES_DEFNORETURN_
 Blockly.Msg["TEXT_APPEND_VARIABLE"] = Blockly.Msg["VARIABLES_DEFAULT_NAME"];
 Blockly.Msg["TEXT_CREATE_JOIN_ITEM_TITLE_ITEM"] = Blockly.Msg["VARIABLES_DEFAULT_NAME"];
 
-Blockly.Msg["MATH_HUE"] = "230";
-Blockly.Msg["LOOPS_HUE"] = "120";
-Blockly.Msg["LISTS_HUE"] = "260";
 Blockly.Msg["LOGIC_HUE"] = "210";
-Blockly.Msg["VARIABLES_HUE"] = "330";
+Blockly.Msg["LOOPS_HUE"] = "120";
+Blockly.Msg["MATH_HUE"] = "230";
 Blockly.Msg["TEXTS_HUE"] = "160";
-Blockly.Msg["PROCEDURES_HUE"] = "290";
+Blockly.Msg["LISTS_HUE"] = "260";
 Blockly.Msg["COLOUR_HUE"] = "20";
+Blockly.Msg["VARIABLES_HUE"] = "330";
 Blockly.Msg["VARIABLES_DYNAMIC_HUE"] = "310";
+Blockly.Msg["PROCEDURES_HUE"] = "290";

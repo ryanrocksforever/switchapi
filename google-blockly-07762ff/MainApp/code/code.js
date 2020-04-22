@@ -234,14 +234,14 @@ Code.LANG = Code.getLang();
  * List of tab names.
  * @private
  */
-Code.TABS_ = ['blocks', 'javascript', 'php', 'python', 'dart', 'lua', 'xml'];
+Code.TABS_ = ['blocks', 'python'];
 
 /**
  * List of tab names with casing, for display in the UI.
  * @private
  */
 Code.TABS_DISPLAY_ = [
-    'Blocks', 'JavaScript', 'PHP', 'Python', 'Dart', 'Lua', 'XML',
+    'Blocks', 'Python',
 ];
 
 Code.selected = 'blocks';
@@ -252,7 +252,7 @@ Code.selected = 'blocks';
  */
 Code.tabClick = function (clickedName) {
     // If the XML tab was open, save and render the content.
-    if (document.getElementById('tab_xml').classList.contains('tabon')) {
+   /* if (document.getElementById('tab_xml').classList.contains('tabon')) {
         var xmlTextarea = document.getElementById('content_xml');
         var xmlText = xmlTextarea.value;
         var xmlDom = null;
@@ -270,7 +270,7 @@ Code.tabClick = function (clickedName) {
             Code.workspace.clear();
             Blockly.Xml.domToWorkspace(xmlDom, Code.workspace);
         }
-    }
+    }*/
 
     if (document.getElementById('tab_blocks').classList.contains('tabon')) {
         Code.workspace.setVisible(false);
@@ -349,7 +349,9 @@ Code.attemptCodeGeneration = function (generator) {
     content.textContent = '';
     if (Code.checkAllGeneratorFunctionsDefined(generator)) {
         var code = generator.workspaceToCode(Code.workspace);
+        var submitthingy = "<H>aadfsafdsafsdasfdasdfdasf</H>"
         content.textContent = code;
+        content.innerHTML += submitthingy
         // Remove the 'prettyprinted' class, so that Prettify will recalculate.
         content.className = content.className.replace('prettyprinted', '');
     }
