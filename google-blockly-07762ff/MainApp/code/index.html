@@ -20,8 +20,7 @@
 <table width="100%" height="100%">
     <tr>
         <td>
-            <h1><a href="https://developers.google.com/blockly/">Blockly</a>&rlm; &gt;
-                <a href="../index.html">Demos</a>&rlm; &gt;
+            <h1>
                 <span id="title">...</span>
             </h1>
         </td>
@@ -35,18 +34,10 @@
                 <tr id="tabRow" height="1em">
                     <td id="tab_blocks" class="tabon">...</td>
                     <td class="tabmin tab_collapse">&nbsp;</td>
-                    <td id="tab_javascript" style="visibility: hidden" class="taboff tab_collapse">JavaScript</td>
-                    <td class="tabmin tab_collapse">&nbsp;</td>
+
                     <td id="tab_python" class="taboff tab_collapse">Python</td>
                     <td class="tabmin tab_collapse">&nbsp;</td>
-                    <td id="tab_php" style="visibility: hidden" class="taboff tab_collapse">PHP</td>
-                    <td class="tabmin tab_collapse">&nbsp;</td>
-                    <td id="tab_lua" style="visibility: hidden" class="taboff tab_collapse">Lua</td>
-                    <td class="tabmin tab_collapse">&nbsp;</td>
-                    <td id="tab_dart" style="visibility: hidden" class="taboff tab_collapse">Dart</td>
-                    <td class="tabmin tab_collapse">&nbsp;</td>
-                    <td id="tab_xml" style="visibility: hidden" class="taboff tab_collapse">XML</td>
-                    <td class="tabmin">&nbsp;</td>
+
                     <td id="tab_code" class="taboff">
                         <select id="code_menu"></select>
                     </td>
@@ -79,20 +70,45 @@
 <textarea id="content_xml" class="content" wrap="off"></textarea>
 
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-    <block type="start"></block>
-    <block type="firsttime"></block>
-    <block type="send">
-        <field name="button">Button B</field>
-        <field name="NAME">0.1</field>
-    </block>
-    <block type="end"></block>
-    <block type="controls_repeat_ext">
-        <value name="TIMES">
-            <shadow type="math_number">
-                <field name="NUM">10</field>
-            </shadow>
-        </value>
-    </block>
+    <category name="%{BKY_CATLOGIC}" colour="%{BKY_LOGIC_HUE}">
+        <block type="controls_if"></block>
+        <block type="logic_compare"></block>
+        <block type="logic_operation"></block>
+        <block type="logic_negate"></block>
+        <block type="logic_boolean"></block>
+        <block type="logic_null"></block>
+        <block type="logic_ternary"></block>
+        <block type="start"></block>
+        <block type="firsttime"></block>
+        <block type="send">
+            <field name="button">Button B</field>
+            <field name="NAME">0.1</field>
+        </block>
+        <block type="end"></block>
+        <block type="controls_repeat_ext">
+            <value name="TIMES">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="start"></block>
+        <block type="firsttime"></block>
+        <block type="send">
+            <field name="button">Button B</field>
+            <field name="NAME">0.1</field>
+        </block>
+        <block type="end"></block>
+        <block type="controls_repeat_ext">
+            <value name="TIMES">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+    </category>
+
+
 </xml>
 
 </body>

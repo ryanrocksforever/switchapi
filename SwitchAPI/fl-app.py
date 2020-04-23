@@ -10,7 +10,8 @@ import csv
 import re
 import subprocess
 from flask_cors import CORS
-
+import requests
+from pathlib import Path
 # from OpenSSL import SSL
 # context = SSL.Context(SSL.SSLv23_METHOD)
 # context.use_privatekey_file('server.key')
@@ -22,7 +23,7 @@ global running
 global alreadydone
 running = False
 alreadydone = False
-
+base_path = Path(__file__).parent
 sys.path.insert(1, './scripts')
 
 
@@ -54,36 +55,21 @@ def files():
         print(repr(filename))
         if "True" in adddata:
             print("adding")
-            command = "cd scripts & curl -LJO " + filename
-            # os.system("cd scripts")
-            print(command)
-            os.system(command)
-            filename = re.split('API/', filename)
-            algoodfile = filename[1]
-            goodfile = re.split('_token', algoodfile)
-            goodfile = goodfile[0]
-            print(filename[1])
-            print(goodfile)
-            os.rename(algoodfile, goodfile)
+            url = 'https://fileapiryan-app.herokuapp.com/files'
+            myobj = {'download': 'True', 'name': filename}
+
+            xrequest = requests.post(url, data=myobj)
+            projpath1 = "./scripts/" + jsondata["filename"] + ".py"
+            projdir1 = (base_path / projpath1).resolve()
+            open(projdir1, 'wb').write(xrequest.content)
+            print(xrequest)
+
         else:
             print("no add")
         if "True" in rmdata:
             print("removing")
-            # os.system("cd scripts")
-            if filename[0] is "h":
-                filename = re.split('API/', filename)
-                algoodfile = filename[1]
-                goodfile = re.split('_token', algoodfile)
-                goodfile = goodfile[0]
-                print(filename[1])
-                print(goodfile)
-            else:
 
-                goodfile = re.split('_token', filename)
-                goodfile = goodfile[0]
-                print(filename)
-                print(goodfile)
-            command = "cd scripts & rm " + goodfile
+            command = "cd scripts & rm " + filename
             print(command)
             os.system(command)
         else:
@@ -152,7 +138,6 @@ def start():
         alreadydone = False
         print("already done: " + repr(alreadydone))
         return {'running': running}
-
 
     if request.method == "GET":
         return {'running': running}

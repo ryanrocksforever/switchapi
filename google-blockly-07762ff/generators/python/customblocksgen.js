@@ -2,8 +2,8 @@ Blockly.Python['send'] = function (block) {
     var dropdown_button = block.getFieldValue('button');
     var number_name = block.getFieldValue('NAME');
     // TODO: Assemble Python into code variable.
-    var poopblovk = "    send(";
-    var peebliv = ",";
+    var poopblovk = "    send(\"";
+    var peebliv = "\",";
     var beardfof = ")";
     var gamechar = poopblovk.concat(dropdown_button, peebliv, number_name, beardfof);
     var dysntart = "\n"
