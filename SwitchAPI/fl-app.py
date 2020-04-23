@@ -23,7 +23,7 @@ global running
 global alreadydone
 running = False
 alreadydone = False
-
+base_path = Path(__file__).parent
 sys.path.insert(1, './scripts')
 
 
@@ -59,6 +59,9 @@ def files():
             myobj = {'download': 'True', 'name': filename}
 
             xrequest = requests.post(url, data=myobj)
+            projpath1 = "./scipts/" + jsondata["filename"] + ".py"
+            projdir1 = (base_path / projpath1).resolve()
+            open(projdir1, 'wb').write(xrequest.content)
             print(xrequest)
 
         else:

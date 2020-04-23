@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocklysubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/blocklysubmit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userformsubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/userformsubmit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +225,7 @@
       <workItem from="1587495418390" duration="8067000" />
       <workItem from="1587523630016" duration="593000" />
       <workItem from="1587574801440" duration="10526000" />
-      <workItem from="1587601285345" duration="7220000" />
+      <workItem from="1587601285345" duration="7920000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -510,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587584109678</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="FIx Scipts">
+      <created>1587670812242</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587670812242</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,11 +604,11 @@
     </state>
     <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587415947343" />
     <state x="341" y="12" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1587411015850" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587584117054">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587670819886">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587420350107" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587584117054" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587670819886" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587512696538">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
