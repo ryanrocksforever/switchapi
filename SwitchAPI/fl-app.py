@@ -59,7 +59,7 @@ def files():
             myobj = {'download': 'True', 'name': filename}
 
             xrequest = requests.post(url, data=myobj)
-            projpath1 = "./scipts/" + jsondata["filename"] + ".py"
+            projpath1 = "./scripts/" + jsondata["filename"] + ".py"
             projdir1 = (base_path / projpath1).resolve()
             open(projdir1, 'wb').write(xrequest.content)
             print(xrequest)
