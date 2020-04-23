@@ -6,6 +6,7 @@
 </head>
 <body id="main">
 <h1>Games</h1>
+<div id="maindiv" class="grid-container"></div>
 
 <script>
     async function getUsers() {
@@ -22,17 +23,19 @@
         window.data = data;
         for (var key of Object.keys(data.projects)) {
             console.log(key)
-            var start = "<div id=\"";
+            var start = "<div class=\"projdiv\"> <div class='namebutton' id=\"";
             var second = "\"> <p>";
             var third = "</p> <button onclick=\"runfunction("
-            var five = ")\" value=\"Start\" style=\"color:black;\" id=\""
+            var five = ")\" value=\"Download\" style=\"color:black;\" id=\""
 
-            var four = "\">Start</button> </div>"
+            var four = "\">Download</button> </div> <div class='desc'> <p>Desciption:</p><p>"
+            var six = "</p> </div> </div>"
             var start1 = start.concat(key.concat("div"));
             var start2 = start1.concat(second, key);
             var start3 = start2.concat(third, key, five, key);
             var start4 = start3.concat(four);
-            document.getElementById("main").innerHTML += start4;
+            var start5 = start4.concat(data.projects[key], six);
+            document.getElementById("maindiv").innerHTML += start5;
             console.log("done");
 
         }
@@ -42,7 +45,7 @@
         // Example POST method implementation:
         //data = window.data
         // datatopost = {filename: window.data.i[key]}
-        const data = { filename: window.data.i[key], "adddata": "True" };
+        const data = { "filename": window.data.projects[key], "adddata": "True", "remove": "False" };
         var keything = key
         fetch('https://switch-hub.local:80/files', {
             method: 'POST', // or 'PUT'
@@ -61,31 +64,20 @@
         for (var key of Object.keys(window.data.i)) {
             console.log(key)
             if (key == keything){
-                if (document.getElementById(key).innerText == "Start") {
+                if (document.getElementById(key).innerText == "Download") {
                     var foof = document.getElementById(key).innerText;
                     console.log(foof);
-                    document.getElementById(key).innerText = "Stop";
-                    console.log("stop")
+                    document.getElementById(key).innerText = "Already Downloaded";
+                    console.log("stop");
                 } else {
-                    document.getElementById(key).innerText = "Start";
-                    console.log("Start")
+                    document.getElementById(key).innerText = "Download";
+                    console.log("Start");
                 }
                 //document.getElementById(key).textContent += 'stop';
                 console.log("done");
 
             } else {
-                if (document.getElementById(key).innerText == "Start") {
-                    var foof = document.getElementById(key).innerText;
-                    console.log(foof);
-                    document.getElementById(key).innerText = "Disabled";
-                    document.getElementById(key).disabled = true;
-                    console.log("stop")
-                } else {
-                    document.getElementById(key).innerText = "Start";
-                    document.getElementById(key).disabled = false;
-                    console.log("Start")
-                }
-                //document.getElementById(key).textContent += 'stop';
+                console.log("irrelavent");
             }
 
             console.log("done");
@@ -175,17 +167,39 @@
    }
   }
   }
-  div {
+
+  .projdiv {
     border-radius: 25px;
     border: 2px solid #73AD21;
-    padding: 20px;
+    padding: 3px;
+    width: 75%;
+    margin: 5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 70px;
-    margin: 1%;
+
+
+  }
+  .namebutton{
+
+      border: 2px solid #73AD21;
+
+
+
+      float: top;
+      width: 50%;
+      height: 50%;
+      margin: 1%;
+
+  }
+  .desc{
+      border-radius: 0px;
+      border: 2px solid #73AD21;
+
+
+
+      width: 50%;
+      height: 50%;
+      margin: 1%;
+
   }
   button {
 
@@ -216,6 +230,26 @@
     background-color: darkred;
     color: #666666;
   }
+  .grid-container {
+      display: grid;
+      grid-template-areas: 'left center right';
 
+
+
+
+
+  }
+  .grid-left {
+      grid-area: left;
+  }
+  .grid-center {
+      grid-area: center;
+  }
+  .grid-right {
+      grid-area: right;
+  }
+  .grid-container div {
+      background-color: lightgreen;
+  }
 </style>
 </html>

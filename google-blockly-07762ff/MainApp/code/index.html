@@ -35,7 +35,7 @@
                     <td id="tab_blocks" class="tabon">...</td>
                     <td class="tabmin tab_collapse">&nbsp;</td>
 
-                    <td id="tab_python" class="taboff tab_collapse">Python</td>
+                    <td id="tab_python" class="taboff tab_collapse">Submit</td>
                     <td class="tabmin tab_collapse">&nbsp;</td>
 
                     <td id="tab_code" class="taboff">
@@ -70,46 +70,20 @@
 <textarea id="content_xml" class="content" wrap="off"></textarea>
 
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-    <category name="%{BKY_CATLOGIC}" colour="%{BKY_LOGIC_HUE}">
-        <block type="controls_if"></block>
-        <block type="logic_compare"></block>
-        <block type="logic_operation"></block>
-        <block type="logic_negate"></block>
-        <block type="logic_boolean"></block>
-        <block type="logic_null"></block>
-        <block type="logic_ternary"></block>
-        <block type="start"></block>
-        <block type="firsttime"></block>
-        <block type="send">
-            <field name="button">Button B</field>
-            <field name="NAME">0.1</field>
-        </block>
-        <block type="end"></block>
-        <block type="controls_repeat_ext">
-            <value name="TIMES">
-                <shadow type="math_number">
-                    <field name="NUM">10</field>
-                </shadow>
-            </value>
-        </block>
-        <block type="start"></block>
-        <block type="firsttime"></block>
-        <block type="send">
-            <field name="button">Button B</field>
-            <field name="NAME">0.1</field>
-        </block>
-        <block type="end"></block>
-        <block type="controls_repeat_ext">
-            <value name="TIMES">
-                <shadow type="math_number">
-                    <field name="NUM">10</field>
-                </shadow>
-            </value>
-        </block>
-    </category>
-
-
+    <block type="start"></block>
+    <block type="firsttime"></block>
+    <block type="send">
+        <field name="button">Button B</field>
+        <field name="NAME">0.1</field>
+    </block>
+    <block type="end"></block>
+    <block type="controls_repeat_ext">
+        <value name="TIMES">
+            <shadow type="math_number">
+                <field name="NUM">10</field>
+            </shadow>
+        </value>
+    </block>
 </xml>
-
 </body>
 </html>

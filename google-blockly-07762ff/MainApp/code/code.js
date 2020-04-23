@@ -348,15 +348,70 @@ Code.attemptCodeGeneration = function (generator) {
     var content = document.getElementById('content_' + Code.selected);
     content.textContent = '';
     if (Code.checkAllGeneratorFunctionsDefined(generator)) {
-        var code = generator.workspaceToCode(Code.workspace);
-        var submitthingy = "<H>aadfsafdsafsdasfdasdfdasf</H>"
-        content.textContent = code;
+        window.code = generator.workspaceToCode(Code.workspace);
+        console.log(code)
+        var submitthingy = '\n' +
+            '<div>\n' +
+            '    <p>Name:</p> <input id="name" value="Name of Game">\n' +
+            '    <p>Description</p> <textarea id="desc">About your Game</textarea>\n' +
+            '    <br>\n' +
+            '    <button id="submitbut" onclick="submit()" >Post it</button>\n' +
+            '\n' +
+            '<script>\n' +
+            '    function submit() {\n' +
+            '        const data = { "\\"name\\"": document.getElementById("name").value, "\\"desc\\"": document.getElementById("desc").value, "\\"content\\"": window.code };\n' +
+            '        console.log(data);\n' +
+            '        console.log("submit")\n' +
+            '        fetch(\'https://fileapiryan-app.herokuapp.com/files\', {\n' +
+            '            method: \'POST\', // or \'PUT\'\n' +
+            '            headers: {\n' +
+            '                \'Content-Type\': \'application/json\',\n' +
+            '            },\n' +
+            '            body: JSON.stringify(data).replace(/"/, \'"\'),\n' +
+            '        })\n' +
+            '            .then((response) => response.json())\n' +
+            '            .then((data) => {\n' +
+            '                console.log(\'Success:\', data);\n' +
+            '            })\n' +
+            '            .catch((error) => {\n' +
+            '                console.error(\'Error:\', error);\n' +
+            '            });\n' +
+            '        return true\n' +
+            '    }\n' +
+            '    \n' +
+            '</script>\n' +
+            '\n' +
+            '\n' +
+            '</div>\n' +
+            '\n' +
+            '\n';
+        //content.textContent = code;
         content.innerHTML += submitthingy
         // Remove the 'prettyprinted' class, so that Prettify will recalculate.
         content.className = content.className.replace('prettyprinted', '');
     }
 };
-
+function submit() {
+    const data = { "download": "False", "name": document.getElementById("name").value, "desc": document.getElementById("desc").value, "content": window.code };
+    const data1 = {"download": "False", "name": "bruhpoopfart", "desc": "nothingtoseehere", "content": "print('fart'"}
+    console.log(data);
+    console.log("submit")
+    fetch('https://fileapiryan-app.herokuapp.com/files', {
+        method: 'POST', // or 'PUT'
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data).replace(/"/, '"'),
+    })
+        .then((response) => response.json())
+        .then((data) => {
+            console.log('Success:', data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    return true
+}
 /**
  * Check whether all blocks in use have generator functions.
  * @param generator {!Blockly.Generator} The generator to use.

@@ -94,7 +94,8 @@ Blockly.Python['start'] = function (block) {
         '\n' +
         'count = 0\n' +
         'try:\n' +
-        '    while True:\n';
+        '    while True:\n' +
+        '       count = count + 1\n';
     return code;
 };
 
@@ -110,8 +111,9 @@ Blockly.Python['firsttime'] = function (block) {
     var number_times = block.getFieldValue('times');
     var statements_blocksinside = Blockly.Python.statementToCode(block, 'blocksinside');
     // TODO: Assemble Python into code variable.
-    var adman = "if count == "
+    var adman = "    if count == "
     var madman = ":\n"
+    var sadman = "        count=0"
     var badman = adman.concat(number_times, madman, statements_blocksinside)
 
 

@@ -1,0 +1,35 @@
+
+<div>
+    <p>Name:</p> <input id="name" value="Name of Game">
+    <p>Description</p> <textarea id="desc">About your Game</textarea>
+    <br>
+    <button id="submitbut" onclick="submit()" >Post it</button>
+
+<script>
+    function submit() {
+        const data = { "\"name\"": document.getElementById("name").value, "\"desc\"": document.getElementById("desc").value, "\"content\"": window.code };
+        console.log(data);
+        console.log("submit")
+        fetch('https://fileapiryan-app.herokuapp.com/files', {
+            method: 'POST', // or 'PUT'
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data).replace(/"/, '"'),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        return true
+    }
+    
+</script>
+
+
+</div>
+
+
