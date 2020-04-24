@@ -20,105 +20,907 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35315411-ca24-4db0-ac67-58088b343f9e" name="Default Changelist" comment="FIx Scipts">
-      <change afterPath="$PROJECT_DIR$/blocklsubmitcode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/blocklsubmitcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.jshintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/blocklsubmitcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/be-tarask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/hrx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/kab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/pms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/sc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/msg/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/toolbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/workspace (1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/workspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/MainApp/code/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/blockly_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/blockly_uncompressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/blocks_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/dart_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/i18n/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/i18n/create_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/i18n/dedup_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/i18n/js_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/i18n/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/javascript_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/lua_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/bcc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/be-tarask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/diq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/dty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/gor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/hrx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/kab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/kn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/mnw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/pms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/shn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/skr-arab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/tcy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/te.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/tl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ug-arab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/xmf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/yo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/js/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/az.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ba.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/bcc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/be-tarask.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/bg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/bn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/br.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/constants.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/cs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/diq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/dty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/el.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/en-gb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/eo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/et.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/eu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/fi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/gl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/gor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ha.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/he.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/hi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/hrx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/hu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/hy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/is.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ja.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/kab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/kn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ko.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/lv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/mk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/mnw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/nb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/nl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/oc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/pms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/pt-br.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/pt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/qqq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/shn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/skr-arab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sr-latn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/sv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/synonyms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/tcy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/te.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/th.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/tl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/tlh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ug-arab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/uk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/ur.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/vi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/xmf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/yo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/zh-hans.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/json/zh-hant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/msg/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/php_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blockly-compressed/python_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.jshintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/blocklsubmitcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/be-tarask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/hrx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/kab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/pms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/sc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/msg/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/toolbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/workspace (1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/workspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/MainApp/code/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/.gcloudignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/deploy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/index.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/appengine/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blockly_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blockly_uncompressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/customblocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/blocks_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/closure-library/bin/calcdeps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/closure-library/goog/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/closure/bin/calcdeps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/closure/goog/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block_animations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block_drag_surface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block_dragger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block_events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/block_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/blockly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/bubble_dragger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/menu/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/menu/menuitem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/tree/basenode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/tree/treecontrol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/components/tree/treenode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/connection_db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/contextmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/dropdowndiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/events_abstract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_angle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_label_serializable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_multilineinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_registry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_textinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/field_variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/flyout_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/flyout_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/flyout_dragger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/flyout_horizontal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/flyout_vertical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/insertion_marker_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/ast_node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/basic_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/flyout_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/key_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/keyboard_nav/tab_navigate_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/marker_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/msg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/mutator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/rendered_connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/block_rendering.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/debugger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/i_path_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/marker_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/path_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/common/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/highlight_constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/measurables/inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/path_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/geras/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/connections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/row_elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/measurables/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/minimalist/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/minimalist/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/minimalist/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/minimalist/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/thrasos/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/thrasos/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/marker_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/measurables/inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/measurables/row_elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/measurables/rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/path_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/renderers/zelos/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/requires.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/classic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/deuteranopia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/highcontrast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/modern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/tritanopia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme/zelos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/theme_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/toolbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/touch_gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/trashcan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/ui_events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/ui_menu_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/coordinate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/idgenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/keycodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/rect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/svg_paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/useragent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/utils/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/variable_events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/variable_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/variable_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/widgetdiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_audio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_comment_render_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_comment_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_drag_surface_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_dragger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/workspace_svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/ws_comment_events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/core/zoom_controls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/dart_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/accessible/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/accessible/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/app_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_definition_extractor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_exporter_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_exporter_tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_exporter_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_library_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_library_storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_library_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/block_option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/cp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/cp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/factory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/factory_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/standard_categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/workspacefactory/wfactory_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/workspacefactory/wfactory_generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/workspacefactory/wfactory_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/workspacefactory/wfactory_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory/workspacefactory/wfactory_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory_old/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory_old/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory_old/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory_old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/blockfactory_old/link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/be-tarask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/hrx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/kab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/pms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/sc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/msg/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/code/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/scripts/music_maker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/scripts/sound_blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/c4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/c5.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/d4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/e4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/f4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/sounds/g4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app-complete/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/scripts/music_maker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/c4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/c5.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/d4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/e4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/f4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/sounds/g4.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/codelab/app/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-dialogs/custom-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-dialogs/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-dialogs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/pitch/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/pitch/field_pitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/pitch/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/pitch/media/notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/pitch/pitch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/field_turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/fedora.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/mask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/propeller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/stovepipe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/media/warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/custom-fields/turtle/turtle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/fixed/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/fixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/generator/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/generator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/graph/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/graph/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/headless/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/headless/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/acorn_interpreter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/async-execution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/step-execution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/interpreter/wait_block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/keyboard_nav/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/keyboard_nav/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/keyboard_nav/line_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/maxBlocks/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/maxBlocks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/minimap/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/minimap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/minimap/minimap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mirror/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mirror/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/androidTest/java/com/example/blocklywebview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/java/com/google/blockly/android/webview/BlocklyWebViewFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/java/com/google/blockly/android/webview/JsDialogHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/java/com/google/blockly/android/webview/WebChromeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/java/com/google/blockly/android/webview/demo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/layout/js_prompt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/values/js_dialog_helper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/app/src/test/java/com/example/blocklywebview/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/html/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/html/ln_resources.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/html/toolbox_standard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/Blockly WebView/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/mobile/ios/cp_resources.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/be-tarask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/hrx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/pms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/sc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/generated/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/plane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/soy/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/soy/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/soy/SoyMsgExtractor.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/soy/SoyToJsSrcCompiler.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/soy/soyutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/template.soy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/extracted_msgs.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ar.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_be-tarask.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_br.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ca.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_da.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_de.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_el.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_en.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_es.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_et.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_fa.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_fr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_he.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_hrx.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_hu.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ia.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_is.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_it.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ja.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ko.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ms.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_nb.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_nl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_pl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_pms.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_pt-br.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ro.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_ru.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_sc.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_sv.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_th.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_tr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_uk.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_vi.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_zh-hans.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/plane/xlf/translated_msgs_zh-hant.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/resizable/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/resizable/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/resizable/overlay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/rtl/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/storage/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/storage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/toolbox/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/demos/toolbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/externs/goog-externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/externs/svg-externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/dart/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/javascript/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/lua/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/php/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/customblocksgen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/loops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/procedures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/generators/python/variables_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/i18n/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/i18n/create_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/i18n/dedup_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/i18n/js_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/i18n/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/javascript_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/lua_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/1x1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/click.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/click.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/delete.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/delete.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/delete.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/disconnect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/disconnect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/disconnect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/dropdown-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/handclosed.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/handdelete.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/handopen.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/pilcrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/quote0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/quote1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/media/sprites.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/php_compressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-blocklyneccesary/python_compressed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchAPI/fl-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwitchAPI/fl-app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocklysubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/blocklysubmit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/generators/python/customblocksgen.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/generators/python/customblocksgen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ab.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ba.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ba.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bcc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/be-tarask.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/be-tarask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/be.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/br.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/diq.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/diq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/dty.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/dty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ee.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/en-gb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/eo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/gor.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/gor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ha.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hrx.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hrx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ia.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ig.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/kab.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/kab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/kn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lb.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lki.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lki.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lo.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/mnw.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/mnw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/oc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pms.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sc.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sd.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/shn.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/shn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/skr-arab.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/skr-arab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sr-latn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ta.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tcy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/te.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/te.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tl.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tlh.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tlh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ug-arab.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ug-arab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ur.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/ur.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/xmf.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/xmf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/yo.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/yo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/zh-hans.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/zh-hans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/zh-hant.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/js/zh-hant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/constants.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/constants.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/qqq.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/qqq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/synonyms.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/msg/json/synonyms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-blockly-07762ff/python_compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/google-blockly-07762ff/python_compressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileapi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fileapi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,22 +953,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/google-blockly-07762ff/MainApp/code" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ATAM PC 004\Documents\GitHub\switchapi\google-blockly-07762ff\MainApp\code" />
+      <recent name="D:\Apps\Github\switchapi" />
       <recent name="D:\Apps\Github\switchapi\SwitchAPI\scripts" />
       <recent name="C:\Users\ATAM PC 004\Documents\switchapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.build">
+  <component name="RunManager" selected="Python.build (1)">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="switchapi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +992,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="build (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="switchapi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google-blocklyneccesary" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google-blocklyneccesary/build.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="switchapi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,9 +1021,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google-blockly-07762ff" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -279,6 +1104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.build (1)" />
         <item itemvalue="Python.build" />
         <item itemvalue="Python.i0animalcrossing" />
         <item itemvalue="Python.fl-app" />
@@ -324,8 +1150,7 @@
       <workItem from="1587495418390" duration="8067000" />
       <workItem from="1587523630016" duration="593000" />
       <workItem from="1587574801440" duration="10526000" />
-      <workItem from="1587601285345" duration="8383000" />
-      <workItem from="1587674622904" duration="8040000" />
+      <workItem from="1587601285345" duration="20299000" />
     </task>
     <task id="LOCAL-00004" summary="add redundency">
       <created>1587159297340</created>
@@ -628,7 +1453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587671750529</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="FIx Scipts">
+      <created>1587671985871</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1587671985871</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,15 +1498,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1165" y="563" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1587410700524" />
-    <state x="102" y="0" key="#Project_Structure" timestamp="1587415702948">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="760" y="274" key="#Project_Structure" timestamp="1587689559402">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="102" y="0" key="#Project_Structure/0.0.1360.728@0.0.1360.728" timestamp="1587415702948" />
-    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1587410847269" />
-    <state x="389" y="0" key="#build" timestamp="1587681670815">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="389" y="0" key="#build/0.0.1360.728@0.0.1360.728" timestamp="1587681670815" />
+    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1587689559402" />
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587400413965">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -693,47 +1521,48 @@
     </state>
     <state x="563" y="237" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1587415748599" />
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587410985128" />
-    <state width="1317" height="166" key="GridCell.Tab.0.bottom" timestamp="1587682044446">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587682044446" />
-    <state width="1258" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
-    <state width="1317" height="166" key="GridCell.Tab.0.center" timestamp="1587682044446">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587682044446" />
-    <state width="1258" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
-    <state width="1317" height="166" key="GridCell.Tab.0.left" timestamp="1587682044446">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587682044446" />
-    <state width="1258" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
-    <state width="1317" height="166" key="GridCell.Tab.0.right" timestamp="1587682044446">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587682044446" />
-    <state width="1258" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
-    <state x="248" y="122" key="MergeDialog" timestamp="1587512707154">
+    <state width="1258" height="401" key="GridCell.Tab.0.bottom" timestamp="1587523538960">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="248" y="122" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587512707154" />
+    <state width="1317" height="92" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587424772740" />
+    <state width="1258" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
+    <state width="1258" height="401" key="GridCell.Tab.0.center" timestamp="1587523538960">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1317" height="92" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587424772740" />
+    <state width="1258" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
+    <state width="1258" height="401" key="GridCell.Tab.0.left" timestamp="1587523538960">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1317" height="92" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587424772740" />
+    <state width="1258" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
+    <state width="1258" height="401" key="GridCell.Tab.0.right" timestamp="1587523538960">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1317" height="92" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587424772740" />
+    <state width="1258" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587523538960" />
+    <state x="248" y="122" key="MergeDialog" timestamp="1587685304072">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="248" y="122" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1587685304072" />
     <state x="181" y="0" key="SettingsEditor" timestamp="1587415947343">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587415947343" />
     <state x="341" y="12" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1587411015850" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587671752206">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587671990089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="194" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1587420350107" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587671752206" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587512696538">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587671990089" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587685295051">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="579" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1587160590557" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587512696538" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1587685295051" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/switchapi$build.coverage" NAME="build Coverage Results" MODIFIED="1587682044440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google-blockly-07762ff" />
+    <SUITE FILE_PATH="coverage/switchapi$build__1_.coverage" NAME="build (1) Coverage Results" MODIFIED="1587690112698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google-blocklyneccesary" />
+    <SUITE FILE_PATH="coverage/switchapi$build.coverage" NAME="build Coverage Results" MODIFIED="1587518637070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google-blockly-07762ff" />
   </component>
 </project>

@@ -22,7 +22,7 @@
   window.data = data;
   for (var key of Object.keys(data.i)) {
     console.log(key)
-    var start = "<div id=\"";
+    var start = "<div class="gamediv" id=\"";
     var second = "\"> <p>";
     var third = "</p> <button onclick=\"runfunction("
     var five = ")\" value=\"Start\" style=\"color:black;\" id=\""
@@ -176,16 +176,12 @@
   }
   }
   div {
+
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 70px;
-    margin: 1%;
+
   }
   button {
 
