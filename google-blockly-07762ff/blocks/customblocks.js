@@ -12,9 +12,11 @@ Blockly.Blocks['send'] = {
 };
 
 Blockly.Blocks['start'] = {
-    init: function () {
+    init: function() {
         this.appendDummyInput()
             .appendField("Start");
+        this.appendStatementInput("mainstart")
+            .setCheck(null);
         this.setNextStatement(true, null);
         this.setColour(230);
         this.setTooltip("");

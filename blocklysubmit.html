@@ -38,7 +38,7 @@
 
 <script>
     async function getUsers() {
-        let response = await fetch("http://ryanfileapi.wl.r.appspot.com/files");
+        let response = await fetch("https://ryanfileapi.wl.r.appspot.com/files");
         let data = await response.json();
 
         return data;
@@ -73,7 +73,8 @@
         // Example POST method implementation:
         //data = window.data
         // datatopost = {filename: window.data.i[key]}
-        const data = { "filename": window.data.projects[key], "adddata": "True", "remove": "False" };
+        const data = { "\"filename\"": key, "\"add\"": "\"True\"", "remove": "False" };
+        console.log(data)
         var keything = key
         fetch('https://switch-hub.local:80/files', {
             method: 'POST', // or 'PUT'

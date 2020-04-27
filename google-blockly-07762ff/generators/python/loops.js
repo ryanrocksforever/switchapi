@@ -34,7 +34,8 @@ Blockly.Python['controls_repeat_ext'] = function (block) {
     branch = Blockly.Python.addLoopTrap(branch, block) || Blockly.Python.PASS;
     var loopVar = Blockly.Python.variableDB_.getDistinctName(
         'count', Blockly.VARIABLE_CATEGORY_NAME);
-    var code = 'for ' + loopVar + ' in range(' + repeats + '):\n' + branch;
+    Blockly.Python.INDENT = '    '
+    var code = '    for ' + loopVar + ' in range(' + repeats + '):\n' + branch;
     return code;
 };
 

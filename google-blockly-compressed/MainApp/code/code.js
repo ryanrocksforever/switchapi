@@ -362,7 +362,7 @@ Code.attemptCodeGeneration = function (generator) {
             '        const data = { "\\"name\\"": document.getElementById("name").value, "\\"desc\\"": document.getElementById("desc").value, "\\"content\\"": window.code };\n' +
             '        console.log(data);\n' +
             '        console.log("submit")\n' +
-            '        fetch(\'https://fileapiryan-app.herokuapp.com/files\', {\n' +
+            '        fetch(\'https://ryanfileapi.wl.r.appspot.com/files\', {\n' +
             '            method: \'POST\', // or \'PUT\'\n' +
             '            headers: {\n' +
             '                \'Content-Type\': \'application/json\',\n' +
@@ -396,7 +396,7 @@ function submit() {
     const data1 = {"download": "False", "name": "bruhpoopfart", "desc": "nothingtoseehere", "content": "print('fart'"}
     console.log(data);
     console.log("submit")
-    fetch('https://fileapiryan-app.herokuapp.com/files', {
+    fetch('https://ryanfileapi.wl.r.appspot.com/files', {
         method: 'POST', // or 'PUT'
         headers: {
             'Content-Type': 'application/json',

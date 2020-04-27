@@ -55,7 +55,7 @@ def files():
         print(repr(filename))
         if "True" in adddata:
             print("adding")
-            url = 'https://fileapiryan-app.herokuapp.com/files'
+            url = 'http://ryanfileapi.wl.r.appspot.com/files'
             myobj = {'download': 'True', 'name': filename}
 
             xrequest = requests.post(url, data=myobj)

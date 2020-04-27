@@ -11,7 +11,8 @@ Blockly.Python['send'] = function (block) {
     return code;
 };
 
-Blockly.Python['start'] = function (block) {
+Blockly.Python['start'] = function(block) {
+    var statements_mainstart = Blockly.Python.statementToCode(block, 'mainstart');
     // TODO: Assemble Python into code variable.
     var code = 'import argparse\n' +
         'import serial\n' +
@@ -65,13 +66,13 @@ Blockly.Python['start'] = function (block) {
         '\n' +
         '\n' +
         'def send(msg, duration=0):\n' +
-        '    #print(f\'{datetime.datetime.now()} {msg}\')\n' +
+        '    # print(f\'{datetime.datetime.now()} {msg}\')\n' +
         '    ser.write(f\'{msg}\\r\\n\'.encode(\'utf-8\'))\n' +
         '    sleep(duration)\n' +
         '    ser.write(b\'RELEASE\\r\\n\')\n' +
         '\n' +
         '\n' +
-        'port = \'COM5\'\n' +
+        'port = \'COM4\'\n' +
         'global ser\n' +
         'ser = serial.Serial(port, 9600)\n' +
         '\n' +
@@ -92,10 +93,13 @@ Blockly.Python['start'] = function (block) {
         '    send(Button.HOME, 0.1)\n' +
         '    sleep(1)\n' +
         '\n' +
+        '\n' +
         'count = 0\n' +
         'try:\n' +
-        '    while True:\n' +
-        '       count = count + 1\n';
+        '    while True:\n';
+
+    Blockly.Python.INDENT = '    '
+    code = code + statements_mainstart + '        count = count + 1\n';
     return code;
 };
 
@@ -113,8 +117,9 @@ Blockly.Python['firsttime'] = function (block) {
     // TODO: Assemble Python into code variable.
     var adman = "    if count == "
     var madman = ":\n"
-    var sadman = "        count=0"
-    var badman = adman.concat(number_times, madman, statements_blocksinside)
+    var sadman = "        count=0\n"
+    var badman = adman.concat(number_times, madman, sadman, statements_blocksinside)
+
 
 
     return badman;
