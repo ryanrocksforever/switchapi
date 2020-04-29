@@ -7,10 +7,11 @@
 
 <script>
     function submit() {
-        const data = { "\"name\"": document.getElementById("name").value, "\"desc\"": document.getElementById("desc").value, "\"content\"": window.code };
+        window.code = "print()"
+        const data = { "download": "False", "name": document.getElementById("name").value, "desc": document.getElementById("desc").value, "content": window.code };
         console.log(data);
         console.log("submit")
-        fetch('https://fileapiryan-app.herokuapp.com/files', {
+        fetch('http://ryanfileapi.wl.r.appspot.com/files', {
             method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
